@@ -10,12 +10,7 @@
     $(window).load(function () {
         $('.cloud-zoom, .cloud-zoom-gallery').CloudZoom();
     });
-    $(window).resize(function () {
-    	if ($('.cloud-zoom, .cloud-zoom-gallery').data('zoom') != null){
-	    	$('.cloud-zoom, .cloud-zoom-gallery').data('zoom').destroy();
-	    	$('.cloud-zoom, .cloud-zoom-gallery').CloudZoom();
-    	}
-    });
+
     function format(str) {
         for (var i = 1; i < arguments.length; i++) {
             str = str.replace('%' + (i - 1), arguments[i]);
@@ -48,7 +43,7 @@
         // We add a small delay before the message is displayed to avoid the message flicking on then off again virtually immediately if the
         // images load really fast, e.g. from the cache. 
         //var	ctx = this;
-        var  timeout = setTimeout(function () {
+        setTimeout(function () {
             //						 <img src="/images/loading.gif"/>
             if ($mouseTrap === null) {
                 var w = jWin.width();
@@ -88,8 +83,7 @@
 
         this.destroy = function () {
             jWin.data('zoom', null);
-            if (sImg) sImg = null;
-            if (timeout) clearTimeout(timeout);
+
             if ($mouseTrap) {
                 $mouseTrap.unbind();
                 $mouseTrap.remove();
@@ -179,13 +173,7 @@
 		We need the dummy background image as IE does not trap mouse events on
 		transparent parts of a div.
 		*/
-            var widthImg = 0;
-            var heightImg = 0;
-            if(sImg!= null){
-            	widthImg = sImg.outerWidth();
-                heightImg = sImg.outerHeight();
-            }
-	           $mouseTrap = jWin.parent().append(format("<div class='mousetrap' style='background:#fff;opacity:0;filter:alpha(opacity=0);z-index:999;position:absolute;width:%0px;height:%1px;left:%2px;top:%3px;\'></div>", widthImg, heightImg, 0, 0)).find(':last');
+	           $mouseTrap = jWin.parent().append(format("<div class='mousetrap' style='background:#fff;opacity:0;filter:alpha(opacity=0);z-index:999;position:absolute;width:%0px;height:%1px;left:%2px;top:%3px;\'></div>", sImg.outerWidth(), sImg.outerHeight(), 0, 0)).find(':last');
 
 			// Detect device type, normal mouse or touchy(ipad android) by albanx
             var touchy=("ontouchstart" in document.documentElement)?true:false;

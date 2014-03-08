@@ -3,7 +3,7 @@ class EM_Slideshow2_Adminhtml_SliderController extends Mage_Adminhtml_Controller
 {
 	protected function _initAction() {
 		$this->loadLayout()
-			->_setActiveMenu('cms/slideshow2/slider')
+			->_setActiveMenu('emthemes/slideshow2/slider')
 			->_addBreadcrumb(Mage::helper('adminhtml')->__('Slideshow Manager'), Mage::helper('adminhtml')->__('Slideshow Manager'));
 		
 		return $this;
@@ -89,7 +89,7 @@ class EM_Slideshow2_Adminhtml_SliderController extends Mage_Adminhtml_Controller
 			Mage::register('slideshow2_data', $model);
 
 			$this->loadLayout();
-			$this->_setActiveMenu('cms/slideshow2/slider');
+			$this->_setActiveMenu('emthemes/slideshow2/slider');
 
 			$this->_addBreadcrumb(Mage::helper('adminhtml')->__('Slideshow Manager'), Mage::helper('adminhtml')->__('Slideshow Manager'));
 			$this->_addBreadcrumb(Mage::helper('adminhtml')->__('Slideshow News'), Mage::helper('adminhtml')->__('Slideshow News'));

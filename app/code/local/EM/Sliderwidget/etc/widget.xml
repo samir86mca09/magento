@@ -64,6 +64,11 @@
                 <type>text</type>
 				<value>0</value>
 			</auto_sliding>
+			<slider_unique_id>
+				<label>Slider Unique Id</label>
+                <visible>1</visible>
+                <type>text</type>
+			</slider_unique_id>
 			<circular>
 				<label>Slide Circular</label>
                 <visible>1</visible>

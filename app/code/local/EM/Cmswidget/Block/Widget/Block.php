@@ -16,7 +16,9 @@ class EM_Cmswidget_Block_Widget_Block extends Mage_Cms_Block_Widget_Block
 			Mage::app()->getStore()->getId(),
 			(int)Mage::app()->getStore()->isCurrentlySecure(),
 			Mage::getDesign()->getPackageName(),
-			Mage::getDesign()->getTheme('template')
+			Mage::getDesign()->getTheme('template'),
+			Mage::app()->getStore()->getCurrentCurrencyCode(),
+            Mage::getSingleton('customer/session')->getCustomerGroupId()
 		);
 	}
 

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample_data>
+  <staticblock>
+    <block id="13">
+      <title><![CDATA[EM0071 Header Top Banner]]></title>
+      <identifier><![CDATA[em0071_header_top_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="banner-header hide-lte0"><span class="custom-logo paymentmethods-header">Paypal - Visa - MasterCard - American Express - Paypal</span> <span class="h3">Save 20% when you have credit card for buying</span> <a class="button-banner" title="" href="#"><span><span>View More</span></span></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="14">
+      <title><![CDATA[EM0071 Area01 All Categories]]></title>
+      <identifier><![CDATA[em0071_area01_all_categories]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="mobile-toogle">{{block type="core/template" name="featured_category" template="cms/featured_category.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="15">
+      <title><![CDATA[EM0071 Area04 Featured Products 01]]></title>
+      <identifier><![CDATA[em0071_area04_featured_products01]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="title-box"><span class="h3" style="background-color: #5b3c78;">FASHION FOR WOMEN</span> <a title="" href="{{store direct_url=''}}apparel/shoes/womens.html"><span>View All</span></a></div>
+<div class="box span18" style="border-top: 2px solid #5b3c78; margin-left: 0;">
+<div class="span5 pull-left" style="background-color: #e8e8e8;"><a title="" href="#"><img class="fluid" src="{{media url='wysiwyg/home_banner_02.png'}}" alt="" /></a></div>
+<div class="span13 pull-right">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" new_category="10" featured_choose="em_featured" limit_count="6" column_count="3" item_class="span4" thumbnail_width="110" thumbnail_height="110" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="false" show_price="true" show_reviews="false" show_addtocart="false" show_addto="false" show_label="true" choose_template="custom_template" custom_theme="em_featured_products/featured_list_custom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="16">
+      <title><![CDATA[EM0071 Area04 Featured Products 02]]></title>
+      <identifier><![CDATA[em0071_area04_featured_products02]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="title-box"><span class="h3" style="background-color: #ec1a42;">FASHION FOR MEN</span> <a title="" href="{{store direct_url=''}}apparel/shoes/mens.html"><span>View All</span></a></div>
+<div class="box span18" style="border-top: 2px solid #ec1a42; margin-left: 0;">
+<div class="span5 pull-left" style="background-color: #e8e8e8;"><a title="" href="#"><img class="fluid" src="{{media url='wysiwyg/home_banner_03.png'}}" alt="" /></a></div>
+<div class="span13 pull-right">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" new_category="13" featured_choose="em_featured" limit_count="6" column_count="3" item_class="span4" thumbnail_width="110" thumbnail_height="110" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="false" show_price="true" show_reviews="false" show_addtocart="false" show_addto="false" show_label="true" choose_template="custom_template" custom_theme="em_featured_products/featured_list_custom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="17">
+      <title><![CDATA[EM0071 Area04 Featured Products 03]]></title>
+      <identifier><![CDATA[em0071_area04_featured_products03]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="title-box"><span class="h3" style="background-color: #29b3ce;">FASHION FOR KIDS</span> <a title="" href="{{store direct_url=''}}furniture.html"><span>View All</span></a></div>
+<div class="box span18" style="border-top: 2px solid #29b3ce; margin-left: 0;">
+<div class="span5 pull-left" style="background-color: #e8e8e8;"><a title="" href="#"><img class="fluid" src="{{media url='wysiwyg/home_banner_04.png'}}" alt="" /></a></div>
+<div class="span13 pull-right">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" new_category="18" featured_choose="em_featured" limit_count="6" column_count="3" item_class="span4" thumbnail_width="110" thumbnail_height="110" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="false" show_price="true" show_reviews="false" show_addtocart="false" show_addto="false" show_label="true" choose_template="custom_template" custom_theme="em_featured_products/featured_list_custom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="18">
+      <title><![CDATA[EM0071 Area04 Featured Products 04]]></title>
+      <identifier><![CDATA[em0071_area04_featured_products04]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="title-box"><span class="h3" style="background-color: #ff4400;">COSMETIC</span> <a title="" href="{{store direct_url=''}}apparel.html"><span>View All</span></a></div>
+<div class="box span18" style="border-top: 2px solid #ff4400; margin-left: 0;">
+<div class="span5 pull-left" style="background-color: #e8e8e8;"><a title="" href="#"><img class="fluid" src="{{media url='wysiwyg/home_banner_05.png'}}" alt="" /></a></div>
+<div class="span13 pull-right">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" new_category="36,37" featured_choose="em_featured" limit_count="6" column_count="3" item_class="span4" thumbnail_width="110" thumbnail_height="110" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="false" show_price="true" show_reviews="false" show_addtocart="false" show_addto="false" show_label="true" choose_template="custom_template" custom_theme="em_featured_products/featured_list_custom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="19">
+      <title><![CDATA[EM0071 Area04 Featured Products 05]]></title>
+      <identifier><![CDATA[em0071_area04_featured_products05]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="title-box"><span class="h3" style="background-color: #3bac53;">JEWELRY</span> <a title="" href="{{store direct_url=''}}electronics.html"><span>View All</span></a></div>
+<div class="box span18" style="border-top: 2px solid #3bac53; margin-left: 0;">
+<div class="span5 pull-left" style="background-color: #e8e8e8;"><a title="" href="#"><img class="fluid" src="{{media url='wysiwyg/home_banner_06.png'}}" alt="" /></a></div>
+<div class="span13 pull-right">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" new_category="35" featured_choose="em_featured" limit_count="6" column_count="3" item_class="span4" thumbnail_width="110" thumbnail_height="110" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="false" show_price="true" show_reviews="false" show_addtocart="false" show_addto="false" show_label="true" choose_template="custom_template" custom_theme="em_featured_products/featured_list_custom.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="20">
+      <title><![CDATA[EM0071 Area05 Banner01]]></title>
+      <identifier><![CDATA[em0071_area05_banner01]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="" href="#"><img class="fluid" src="{{media url="wysiwyg/area05_banner01.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="21">
+      <title><![CDATA[EM0071 Area05 Network]]></title>
+      <identifier><![CDATA[em0071_area05_network]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box icon_network">
+<ul class="none hoz">
+<li><span class="icon facebook">icon</span><a style="color: #3b5997;" href="#">FACEBOOK</a></li>
+<li><span class="icon twitter">icon</span><a style="color: #40b4d8;" href="#">TWITTER</a></li>
+</ul>
+<ul class="none hoz">
+<li><span class="icon vimeo">icon</span><a style="color: #64bff1;" href="#">VIMEO</a></li>
+<li><span class="icon dribbble">icon</span><a style="color: #f45282;" href="#">DRIBBBLE</a></li>
+</ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="22">
+      <title><![CDATA[EM0071 Area05 Banner02]]></title>
+      <identifier><![CDATA[em0071_area05_banner02]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="" href="#"><img class="fluid" src="{{media url="wysiwyg/area05_banner_02.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="23">
+      <title><![CDATA[EM0071 Area06 Banner]]></title>
+      <identifier><![CDATA[em0071_area06_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="" href="#"><img class="fluid" src="{{media url="wysiwyg/area06_banner.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="24">
+      <title><![CDATA[EM0071 Area06 Brand]]></title>
+      <identifier><![CDATA[em0071_area06_brand]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<ul>
+<li class="item"><a href="#"><img title="Redken" src="{{skin url="images/media/slideshow/1.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Dior" src="{{skin url="images/media/slideshow/2.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Lanc&ocirc;me!" src="{{skin url="images/media/slideshow/3.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chanel" src="{{skin url="images/media/slideshow/4.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chicobag" src="{{skin url="images/media/slideshow/5.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Gucci" src="{{skin url="images/media/slideshow/6.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Vanity" src="{{skin url="images/media/slideshow/7.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chlo&eacute;" src="{{skin url="images/media/slideshow/8.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="HOBBs" src="{{skin url="images/media/slideshow/9.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Redken" src="{{skin url="images/media/slideshow/1.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Dior" src="{{skin url="images/media/slideshow/2.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Lanc&ocirc;me!" src="{{skin url="images/media/slideshow/3.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chanel" src="{{skin url="images/media/slideshow/4.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chicobag" src="{{skin url="images/media/slideshow/5.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Gucci" src="{{skin url="images/media/slideshow/6.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Vanity" src="{{skin url="images/media/slideshow/7.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chlo&eacute;" src="{{skin url="images/media/slideshow/8.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="HOBBs" src="{{skin url="images/media/slideshow/9.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Redken" src="{{skin url="images/media/slideshow/1.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Dior" src="{{skin url="images/media/slideshow/2.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Lanc&ocirc;me!" src="{{skin url="images/media/slideshow/3.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chanel" src="{{skin url="images/media/slideshow/4.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chicobag" src="{{skin url="images/media/slideshow/5.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Gucci" src="{{skin url="images/media/slideshow/6.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Vanity" src="{{skin url="images/media/slideshow/7.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="Chlo&eacute;" src="{{skin url="images/media/slideshow/8.png"}}" alt="" /></a></li>
+<li class="item"><a href="#"><img title="HOBBs" src="{{skin url="images/media/slideshow/9.png"}}" alt="" /></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="25">
+      <title><![CDATA[EM0071 Footer Text]]></title>
+      <identifier><![CDATA[em0071_footer_text]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="span6">
+<div class="box" style="border: 1px solid #34c553;">
+<span class="icon consectetur">consectetur</span>
+<div class="pull-right">
+<p style="color: #34c553;">CONSECTETUR ADIPISCING FEUGIAT</p>
+<p>Maecenas lacinia tortor in magna porta</p>
+</div>
+</div>
+</div>
+<div class="span6">
+<div class="box" style="border: 1px solid #e48300;"><span class="icon praesent">praesent</span>
+<div class="pull-right">
+<p style="color: #e48300;">PRAESENT VITAE ERAT LIGULA BLAD</p>
+<p>Maecenas lacinia tortor in magna porta</p>
+</div>
+</div>
+</div>
+<div class="span6">
+<div class="box" style="border: 1px solid #ff4400;"><span class="icon maecesans">maecesans</span>
+<div class="pull-right">
+<p style="color: #ff4400;">MAECENAS COMMODO LACUS</p>
+<p>Maecenas lacinia tortor in magna porta</p>
+</div>
+</div>
+</div>
+<div class="span6">
+<div class="box" style="border: 1px solid #ec00b7;"><span class="icon maecesans2">maecesans2</span>
+<div class="pull-right">
+<p style="color: #ec00b7;">MAECENAS COMMODO LACUS</p>
+<p>Maecenas lacinia tortor in magna porta</p>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="26">
+      <title><![CDATA[EM0071 Footer Information]]></title>
+      <identifier><![CDATA[em0071_footer_information]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box text">
+<div class="span5">
+<p class="h5">SHOPPING HELP</p>
+<ul>
+<li><a href="#">Mauris ligula tortor</a></li>
+<li><a href="#">Class aptent</a></li>
+<li><a href="#">Torquent conubia</a></li>
+<li><a href="#">Phasellus imperdiet</a></li>
+<li><a href="#">Adipiscing vestibulum</a></li>
+</ul>
+</div>
+<div class="span5">
+<p class="h5">INFORMATION SALE</p>
+<ul>
+<li><a href="#">Lorem ipsum</a></li>
+<li><a href="#">Consectetur adipscing</a></li>
+<li><a href="#">Torquent conubia</a></li>
+<li><a href="#">Phasellus imperdiet</a></li>
+<li><a href="#">Adipiscing vestibulum</a></li>
+</ul>
+</div>
+<div class="span5">
+<p class="h5">DELIVERY &amp; RETURN</p>
+<ul>
+<li><a href="#">Lorem ipsum</a></li>
+<li><a href="#">Consectetur adipscing</a></li>
+<li><a href="#">Torquent conubia</a></li>
+<li><a href="#">Phasellus imperdiet</a></li>
+<li><a href="#">Adipiscing vestibulum</a></li>
+</ul>
+</div>
+<div class="span4">
+<p class="h5">CONTACT US</p>
+<ul>
+<li><a href="#">Lorem ipsum</a></li>
+<li><a href="#">Consectetur adipscing</a></li>
+<li><a href="#">Torquent conubia</a></li>
+<li><a href="#">Phasellus imperdiet</a></li>
+<li><a href="#">Adipiscing vestibulum</a></li>
+</ul>
+</div>
+<div class="span4">
+<p class="h5">REWARD PROGRAM</p>
+<p><span class="custom-logo reward">Rewards</span></p>
+<p>About Rewards Program</p>
+<p>Rewards / Points Dashboard</p>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="27">
+      <title><![CDATA[EM0071 Area07 Featured Products]]></title>
+      <identifier><![CDATA[em0071_area07_featured_products]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">{{block type="core/template" name="featured_products" template="cms/featured_products.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="28">
+      <title><![CDATA[EM0071 Sidebar Banner]]></title>
+      <identifier><![CDATA[em0071_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="" href="#"><img class="fluid" src="{{media url="wysiwyg/sidebar_banner.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="29">
+      <title><![CDATA[EM0071 Checkout Sidebar Banner]]></title>
+      <identifier><![CDATA[em0071_checkout_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="" href="#"><img class="fluid" src="{{media url="wysiwyg/checkout_sidebar_banner.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="30">
+      <title><![CDATA[Em0071 Main Slideshow Mobile]]></title>
+      <identifier><![CDATA[em0071_main_slideshow_mobile]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[		<ul>
+		<li class="item" style="display: block;"><a title="" href="furniture.html"><img src="{{media url='em0071_slideshow_mobile/slide-1.jpg'}}" alt="" /></a><a href="#"><span>off</span><span>50%</span><span>Ullamcor tristi tempor</span></a></li>
+		<li class="item" style="display: block;"><a title="" href="furniture.html"><img src="{{media url='em0071_slideshow_mobile/slide-2.jpg'}}" alt="" /></a><a href="#"><span>off</span><span>50%</span><span>Ullamcor tristi tempor</span></a></li>
+		<li class="item" style="display: block;"><a title="" href="furniture.html"><img src="{{media url='em0071_slideshow_mobile/slide-3.jpg'}}" alt="" /></a><a href="#"><span>off</span><span>50%</span><span>Ullamcor tristi tempor</span></a></li>
+		</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="31">
+      <title><![CDATA[Em0071 New Arrivals Home Mobile]]></title>
+      <identifier><![CDATA[em0071_new_arrivals_home_mobile]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[		<div class="new_arrivals_home_mobile">{{widget type="catalog/product_widget_new" products_count="20" template="catalog/product/widget/new/content/new_grid.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="32">
+      <title><![CDATA[Em0071 Footer Account Mobile]]></title>
+      <identifier><![CDATA[em0071_footer_account_mobile]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[		<div class="footer_account">
+		<h3>Your Account</h3>
+		<ul>
+		<li><a title="" href="{{store direct_url="customer/account/create/"}}">Register</a></li>
+		<li><a title="" href="{{store direct_url="customer/account/"}}">My Account</a></li>
+		<li><a title="" href="{{store direct_url="checkout/cart/"}}">View Cart</a></li>
+		<li><a title="" href="{{store direct_url="checkout/onepage/"}}">Checkout</a></li>
+		</ul>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="33">
+      <title><![CDATA[Em0071 Footer Store Links Mobile]]></title>
+      <identifier><![CDATA[em0071_footer_store_links_mobile]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[		<div class="footer_store_link">
+		<h3>Store Links</h3>
+		<ul>
+		<li><a title="" href="{{store direct_url='catalog/seo_sitemap/category'}}">Site Map</a></li>
+		<li><a title="" href="{{store direct_url='catalogsearch/term/popular/'}}">Search Terms</a></li>
+		<li><a title="" href="{{store direct_url='catalogsearch/advanced/'}}">Advanced Search</a></li>
+		<li><a title="" href="{{store direct_url='contacts'}}">Contact Us</a></li>
+		</ul>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="34">
+      <title><![CDATA[Em0071 Footer About Store Mobile ]]></title>
+      <identifier><![CDATA[em0071_footer_about_store_mobile]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[		<div class="about-store-mobile">
+		<h3>About Store</h3>
+		<p>Fusce luctus dictum lacus in aliquam libero porttitor quis maecenas commodo sagittis tellus del adipiscing ante laoreet eget. Integer non dolor justo mauris...</p>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="35">
+      <title><![CDATA[EM0071 Details Alert Url Sample Block]]></title>
+      <identifier><![CDATA[em0071_details_alert_url_sample_block]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box" style="background-color: #f8fcc5;">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Alert Urls. You can add your own content by insert widget into position Alert Urls.</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="36">
+      <title><![CDATA[EM0071 Details Extra Hint Sample Block]]></title>
+      <identifier><![CDATA[em0071_details_extra_hint_sample_block]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box" style="background-color: #f8fcc5;">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Extra Hint. You can add your own content by insert widget into position Extra Hint</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="37">
+      <title><![CDATA[EM0071 Detais Product View Short Description After]]></title>
+      <identifier><![CDATA[em0071_details_product_view_short_description_after]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box" style="background-color: #f8fcc5;">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Product View Short Description After. You can add your own content by insert widget into position Product View Short Description After.</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="38">
+      <title><![CDATA[EM0071 Product Collateral Sample]]></title>
+      <identifier><![CDATA[em0071_product_collateral_sample]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p>A sample of additional collateral tabs that you can insert as a widget in static the backend.</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="39">
+      <title><![CDATA[EM0071 Area08 Sample Block]]></title>
+      <identifier><![CDATA[em0071_area08_sample_block]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box" style="background-color: #f8fcc5;">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 08. You can add your own content by insert widget into position EM Area 08</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="40">
+      <title><![CDATA[EM0071 Area09 Sample Block]]></title>
+      <identifier><![CDATA[em0071_area09_sample_block]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box" style="background-color: #f8fcc5;">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 09. You can add your own content by insert widget into position EM Area 09</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+  </staticblock>
+  <cmspage>
+    <page id="2">
+      <title><![CDATA[EM Taobaus Magento Theme - Home page]]></title>
+      <identifier><![CDATA[em0071_home]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p>&nbsp;&nbsp;</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[<!--<reference name="content">
+<block type="catalog/product_new" name="home.catalog.product.new" alias="product_new" template="catalog/product/new.phtml" after="cms_page"><action method="addPriceBlockType"><type>bundle</type><block>bundle/catalog_product_price</block><template>bundle/catalog/product/price.phtml</template></action></block>
+<block type="reports/product_viewed" name="home.reports.product.viewed" alias="product_viewed" template="reports/home_product_viewed.phtml" after="product_new"><action method="addPriceBlockType"><type>bundle</type><block>bundle/catalog_product_price</block><template>bundle/catalog/product/price.phtml</template></action></block>
+<block type="reports/product_compared" name="home.reports.product.compared" template="reports/home_product_compared.phtml" after="product_viewed"><action method="addPriceBlockType"><type>bundle</type><block>bundle/catalog_product_price</block><template>bundle/catalog/product/price.phtml</template></action></block>
+</reference><reference name="right">
+<action method="unsetChild"><alias>right.reports.product.viewed</alias></action>
+<action method="unsetChild"><alias>right.reports.product.compared</alias></action>
+</reference>-->]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+  </cmspage>
+  <megamenu>
+    <menu id="1">
+      <name><![CDATA[Main Menu]]></name>
+      <type><![CDATA[0]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:41:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:4:"Home";s:8:"sublabel";s:0:"";s:3:"url";s:0:"";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:8:{s:4:"type";s:4:"link";s:5:"label";s:5:"Shoes";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"span24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:3;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:4;a:5:{s:4:"type";s:4:"text";s:4:"text";s:824:"PGgzPkJhZ3M8L2gzPgo8cD48YSBocmVmPSIjIj48aW1nIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTEuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPgo8cD5OYW0gdmVoaWN1bGEsIGR1aSBpbiB1bHRyaWNpZXMgcG9ydHRpdG9ydWUgbm9uIGR1aWVnZXQgYWVuZWFuIGxhb3JlZXQgc2FwaWVuIGlkIHVybmEgcGxhY2VyYXQgc29sbGljaXR1ZGlucyBlcmF0IHZvbHV0cGF0LjwvcD4KPGRpdiBjbGFzcz0ibm9fcXVpY2tzaG9wIj57e3dpZGdldCB0eXBlPSJuZXdwcm9kdWN0cy9saXN0IiBsaW1pdF9jb3VudD0iMSIgb3JkZXJfYnk9Im5hbWUgYXNjIiBmcm9udGVuZF90aXRsZT0iTGFzdCBhZGRlZCIgdGh1bWJuYWlsX3dpZHRoPSIxMzAiIHRodW1ibmFpbF9oZWlnaHQ9IjEzMCIgc2hvd19wcm9kdWN0X25hbWU9InRydWUiIHNob3dfdGh1bWJuYWlsPSJ0cnVlIiBzaG93X2Rlc2NyaXB0aW9uPSJ0cnVlIiBzaG93X3ByaWNlPSJ0cnVlIiBzaG93X3Jldmlld3M9InRydWUiIHNob3dfYWRkdG9jYXJ0PSJmYWxzZSIgc2hvd19hZGR0bz0iZmFsc2UiIHNob3dfbGFiZWw9ImZhbHNlIiBjaG9vc2VfdGVtcGxhdGU9ImVtX25ld19wcm9kdWN0cy9uZXdfbGlzdC5waHRtbCJ9fTwvZGl2Pg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:5;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:5:{s:4:"type";s:4:"text";s:4:"text";s:612:"PGg1PlNBTVBMRSBMSU5LUzwvaDU+Cjx1bD4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPC91bD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:7;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:8;a:5:{s:4:"type";s:4:"text";s:4:"text";s:612:"PGg1PlNBTVBMRSBMSU5LUzwvaDU+Cjx1bD4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPC91bD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:9;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:10;a:5:{s:4:"type";s:4:"text";s:4:"text";s:612:"PGg1PlNBTVBMRSBMSU5LUzwvaDU+Cjx1bD4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmNvbnNlY3RldHVyIGFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPC91bD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:11;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:12;a:5:{s:4:"type";s:4:"text";s:4:"text";s:668:"PGg1PlNBTVBMRSBWSURFTzwvaDU+CjxkaXYgY2xhc3M9ImpzLXZpZGVvIHdpZGVzY3JlZW4iPgo8YSBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL0ZFcVhXd1BGdXNJIiBvbmNsaWNrPSJ0YXJnZXQ9J19ibGFuayciPgo8aW1nIGNsYXNzPSJmbHVpZCIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvZGVtby9tZW51X3ZpZGVvLnBuZyd9fSIgYWx0PSIiIC8+CjwvYT4KPC9kaXY+CjxwPnJlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdCwgc2VkIGRvIGVpdXNtb2QgdGVtcG9yIGluY2lkaWR1bnQgdXQgbGFib3JlIGV0IGRvbG9yZSBtYWduYSBhbGlxdWEuIFV0IGVuaW0gYWQgbWluaW0gdmVuaWFtLCBxdWlzIG5vc3RydWQgZXhlcmNpdGF0aW9uIHVsbGFtY28gbGFib3JpcyBuaXNpIHV0IGFsaXF1aXAgZXggZWEgY29tbW9kbyBjb25zZXF1YXQuIER1aXMgYXV0ZSBpcnVyZSBkb2xvciBpbiByZXByZWhlPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:8:{s:4:"type";s:4:"link";s:5:"label";s:4:"Bags";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:14;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"span24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:15;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span7";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:16;a:5:{s:4:"type";s:4:"text";s:4:"text";s:628:"PGgzPkplYW5zPC9oMz4KPHA+PGEgaHJlZj0iIyI+PGltZyBzcmM9Int7bWVkaWEgdXJsPSJ3eXNpd3lnL21lbnUyLmpwZyJ9fSIgYWx0PSIiIC8+PC9hPjwvcD4KPHA+TmFtIHZlaGljdWxhLCBkdWkgaW4gdWx0cmljaWVzIHBvcnR0aXRvcnVlIG5vbiBkdWllZ2V0IGFlbmVhbiBsYW9yZWV0IHNhcGllbiBpZCB1cm5hIHBsYWNlcmF0IHNvbGxpY2l0dWRpbnMgZXJhdCB2b2x1dHBhdC4gTmFtIHZlaGljdWxhLCBkdWkgaW4gdWx0cmljaWVzIHBvcnR0aXRvcnVlIG5vbiBkdWllZ2V0IGFlbmVhbiBsYW9yZWV0IHNhcGllbiBpZCB1cm5hIHBsYWNlcmF0IHNvbGxpY2l0dWRpbnMgZXJhdCB2b2x1dHBhdC4gTmFtIHZlaGljdWxhLCBkdWkgaW4gdWx0cmljaWVzIHBvcnR0aXRvcnVlIG5vbiBkdWllZ2V0IGFlbmVhbiBsYW9yZWV0IHNhcGllbiBpZCB1cm5hIHBsYWNlcmF0IHNvbGxpY2l0dWRpbnMgZXJhdCB2b2x1dHBhdC4gPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:17;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:18;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:19;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:20;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:21;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:22;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:24;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:25;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:26;a:5:{s:4:"type";s:4:"text";s:4:"text";s:484:"e3t3aWRnZXQgdHlwZT0ibmV3cHJvZHVjdHMvbGlzdCIgbGltaXRfY291bnQ9IjEiIG9yZGVyX2J5PSJuYW1lIGFzYyIgZnJvbnRlbmRfdGl0bGU9Ik5ldyBBcnJpdmFscyIgdGh1bWJuYWlsX3dpZHRoPSIxNTAiIHRodW1ibmFpbF9oZWlnaHQ9IjE1MCIgc2hvd19wcm9kdWN0X25hbWU9InRydWUiIHNob3dfdGh1bWJuYWlsPSJ0cnVlIiBzaG93X2Rlc2NyaXB0aW9uPSJ0cnVlIiBzaG93X3ByaWNlPSJ0cnVlIiBzaG93X3Jldmlld3M9InRydWUiIHNob3dfYWRkdG9jYXJ0PSJ0cnVlIiBzaG93X2FkZHRvPSJ0cnVlIiBzaG93X2xhYmVsPSJ0cnVlIiBjaG9vc2VfdGVtcGxhdGU9ImVtX25ld19wcm9kdWN0cy9uZXdfZ3JpZC5waHRtbCJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:5:"Jeans";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:28;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span7";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:29;a:5:{s:4:"type";s:4:"text";s:4:"text";s:56:"PHA+PHNwYW4gY2xhc3M9ImgzIj5Db3NtZXRpY3M8L3NwYW4+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:272:"PGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0KPGg1PkNvbXB1dGVyPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTUifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span3";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:33;a:5:{s:4:"type";s:4:"text";s:4:"text";s:272:"PGg1PkNhbWVyYXM8L2g1Pgp7e2Jsb2NrIHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBuYW1lPSJtYWlubWVnYW1lbnUiIGNhdGVnb3J5X2lkPSIxMiJ9fQo8aDU+RnVybml0dXJlPC9oNT4Ke3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMTAifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:8:{s:4:"type";s:4:"link";s:5:"label";s:7:"T-Shirt";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:35;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"span4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:36;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGgyPlQtU2hpcnQ8L2gyPgp7e2Jsb2NrIHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBuYW1lPSJtYWlubWVnYW1lbnUiIGNhdGVnb3J5X2lkPSIxNSJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:0:"";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:38;a:5:{s:4:"type";s:4:"text";s:4:"text";s:112:"e3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMyJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:5:{s:4:"type";s:4:"text";s:4:"text";s:140:"e3tibG9jayB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgbmFtZT0ibWFpbm1lZ2FtZW51IiBjYXRlZ29yeV9pZD0iMyIgY3NzX2NsYXNzPSJob3Jpem9udGFsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:40;a:8:{s:4:"type";s:4:"link";s:5:"label";s:4:"Blog";s:8:"sublabel";s:0:"";s:3:"url";s:27:"{{store direct_url="blog"}}";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}}]]></content>
+    </menu>
+    <menu id="2">
+      <name><![CDATA[Sample Horizontal Menu]]></name>
+      <type><![CDATA[0]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:47:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:0:"";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:5:{s:4:"type";s:4:"text";s:4:"text";s:128:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249Imhvcml6b250YWwifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"200";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:9:"4 columns";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:368:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+CjxwPnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fTwvcD4KPHA+QmVsb3cgaXMgc3RhdGljIGxpbmtzOjwvcD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:372:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+CjxwPkJlbG93IGlzIDIgPHN0cm9uZz5MaW5rPC9zdHJvbmc+IGl0ZW1zOjwvcD4K";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"400";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSA0MDBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"350";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAzNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:11:"width:300px";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:22:"border:1px dashed #333";s:5:"depth";s:1:"1";}i:45;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmdUZXh0PC9zdHJvbmc+IGZvciBwdXJwb3NlIG9mIHNldHRpbmcgPGVtPnNwYWNpbmc9MTA8L2VtPjwvcD4KCjxwPkNhdGVnb3JpZXMnIENvbnRhaW5lciBDU1M6IDxlbT53aWR0aDozMDBweDwvZW0+PC9wPgoKPHA+PGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgoKPHA+PHN0cm9uZz5UZXh0PC9zdHJvbmc+IGl0ZW0gY29udGFpbnMgdGhlIGJsb2NrIDxlbT5tZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbjwvZW0+IGFscmVhZHkgaGFzIG1hcmdpbiBzbyB3ZSBwbGFjZSBpdCBvdXRzaWRlIHRoZSA8c3Ryb25nPlJvd3MgTGF5b3V0PC9zdHJvbmc+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}}]]></content>
+    </menu>
+    <menu id="3">
+      <name><![CDATA[Sample Vertical Menu Left]]></name>
+      <type><![CDATA[1]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:47:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"200";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:360:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8cD5CZWxvdyBpcyBzdGF0aWMgbGlua3M6PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:372:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+CjxwPkJlbG93IGlzIDIgPHN0cm9uZz5MaW5rPC9zdHJvbmc+IGl0ZW1zOjwvcD4K";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"400";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSA0MDBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"350";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAzNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:11:"width:300px";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:22:"border:1px dashed #333";s:5:"depth";s:1:"1";}i:45;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmdUZXh0PC9zdHJvbmc+IGZvciBwdXJwb3NlIG9mIHNldHRpbmcgPGVtPnNwYWNpbmc9MTA8L2VtPjwvcD4KCjxwPkNhdGVnb3JpZXMnIENvbnRhaW5lciBDU1M6IDxlbT53aWR0aDozMDBweDwvZW0+PC9wPgoKPHA+PGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgoKPHA+PHN0cm9uZz5UZXh0PC9zdHJvbmc+IGl0ZW0gY29udGFpbnMgdGhlIGJsb2NrIDxlbT5tZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbjwvZW0+IGFscmVhZHkgaGFzIG1hcmdpbiBzbyB3ZSBwbGFjZSBpdCBvdXRzaWRlIHRoZSA8c3Ryb25nPlJvd3MgTGF5b3V0PC9zdHJvbmc+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}}]]></content>
+    </menu>
+    <menu id="4">
+      <name><![CDATA[Sample Vertical Menu Right]]></name>
+      <type><![CDATA[1]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:47:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"200";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"300";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:360:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8cD5CZWxvdyBpcyBzdGF0aWMgbGlua3M6PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:372:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+CjxwPkJlbG93IGlzIDIgPHN0cm9uZz5MaW5rPC9zdHJvbmc+IGl0ZW1zOjwvcD4K";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"250";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAyNTBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"400";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSA0MDBweDwvc3Ryb25nPjwvcD4KCjxwPlRoaXMgaXMgc2FtcGxlIGNvbnRlbnQgb2YgIlRleHQiIG1lbnUgaXRlbS4gWW91IGNhbiBlbnRlciB5b3VyIG93biB0ZXh0IGhlcmUuIEl0IHN1cHBvcnRzIDxzdHJvbmc+V1lTSVdZRyBFZGl0b3I8L3N0cm9uZz4gYXMgd2VsbCBhcyA8ZW0+bWFnZW50byBkaXJlY3RpdmU8L2VtPiAoYmxvY2ssIHdpZGdldC4uLik8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:3:"350";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSAzNTBweDwvc3Ryb25nPjwvcD4KCjxwPkJlbG93IGlzIDxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:11:"width:300px";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:2:"10";s:9:"css_class";s:0:"";s:13:"container_css";s:22:"border:1px dashed #333";s:5:"depth";s:1:"1";}i:45;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmdUZXh0PC9zdHJvbmc+IGZvciBwdXJwb3NlIG9mIHNldHRpbmcgPGVtPnNwYWNpbmc9MTA8L2VtPjwvcD4KCjxwPkNhdGVnb3JpZXMnIENvbnRhaW5lciBDU1M6IDxlbT53aWR0aDozMDBweDwvZW0+PC9wPgoKPHA+PGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgoKPHA+PHN0cm9uZz5UZXh0PC9zdHJvbmc+IGl0ZW0gY29udGFpbnMgdGhlIGJsb2NrIDxlbT5tZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbjwvZW0+IGFscmVhZHkgaGFzIG1hcmdpbiBzbyB3ZSBwbGFjZSBpdCBvdXRzaWRlIHRoZSA8c3Ryb25nPlJvd3MgTGF5b3V0PC9zdHJvbmc+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}}]]></content>
+    </menu>
+  </megamenu>
+  <slideshows>
+    <slideshow id="1">
+      <name><![CDATA[EM0071 Main Slideshow]]></name>
+      <images><![CDATA[YTozOntpOjA7YTo2OntzOjM6InVybCI7czoyNToiMTM2NDc4MjQzMF9VbnRpdGxlZC0xLmpwZyI7czo1OiJ0cmFucyI7czo0OiJkZW1vIjtzOjEwOiJzbG90YW1vdW50IjtzOjE6IjciO3M6NDoibGluayI7czoxNDoiZnVybml0dXJlLmh0bWwiO3M6ODoicG9zaXRpb24iO3M6MToiMCI7czo0OiJpbmZvIjthOjI6e2k6MDthOjk6e3M6NDoidGV4dCI7czoxMzk6IjxwPjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoNS5nb29nbGV1c2VyY29udGVudC5jb20vLXFIMF9pdGVYVnJJL1VWajByV2hzSlVJL0FBQUFBQUFBQUJzLzMzYkJXdTViQU9jL3MxNDAvaW1nMS5qcGciIGFsdD0iIiAvPjwvcD4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTAwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiI0MDAiO3M6NjoiZGF0YV95IjtzOjI6IjEwIjtzOjk6ImFuaW1hdGlvbiI7czo0OiJmYWRlIjtzOjY6ImVhc2luZyI7czoxMToiZWFzZU91dFF1YWQiO3M6NToic3BlZWQiO3M6MzoiMjAwIjt9aToxO2E6OTp7czo0OiJ0ZXh0IjtzOjM0NDoiPHA+PHNwYW4gY2xhc3M9ImgzIiBzdHlsZT0iY29sb3I6I2UyMDAwMTsgZm9udC1zaXplOjMwMCU7IGxpbmUtaGVpZ2h0OjEuMDUiPlNBTEU8L3NwYW4+PC9wPg0KPHA+PHNwYW4gY2xhc3M9ImgzIiBzdHlsZT0iY29sb3I6IzU1NTU1NTsgZm9udC1zaXplOjIwMCUiPk9mZiAzMCU8L3NwYW4+PC9wPg0KPHAgc3R5bGU9ImNvbG9yOiM1NTU1NTU7IGZvbnQtc2l6ZToxMjAlOyBmb250LXdlaWdodDpib2xkIj5QRUxMRU5URSBOVUxMQSBBVUdVRSA8L3A+DQo8cCBzdHlsZT0iY29sb3I6IzU1NTU1NTsgZm9udC1zaXplOjEyMCU7IGZvbnQtd2VpZ2h0OmJvbGQiPkFMSVFVQU0gQVQgRU5JTSBTRUQgRElBTTwvcD4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTUwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiI0MDAiO3M6NjoiZGF0YV95IjtzOjM6IjExMCI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VJbkN1YmljIjtzOjU6InNwZWVkIjtzOjM6IjYwMCI7fX19aToxO2E6Njp7czozOiJ1cmwiO3M6Mjc6IjEzNjQ3ODkxODVfaGFub2ljZGNfYXBpLmpwZyI7czo1OiJ0cmFucyI7czo0OiJkZW1vIjtzOjEwOiJzbG90YW1vdW50IjtzOjE6IjciO3M6NDoibGluayI7czoxMjoiYXBwYXJlbC5odG1sIjtzOjg6InBvc2l0aW9uIjtzOjE6IjAiO3M6NDoiaW5mbyI7YTozOntpOjA7YTo5OntzOjQ6InRleHQiO3M6MTc5OiI8cD48aW1nIHRpdGxlPSJSZWRrZW4iIHNyYz0iaHR0cHM6Ly9saDUuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy10RlgyYTNWVXBCQS9VVmxTRGRCaVJGSS9BQUFBQUFBQUFBZy9iVXZCRjB1XzNBdy9zMjAwL2hhbm9pY2RjX2FwaSUyNTIwJTI1MjgzJTI1MjklMjUyMCUyNTI4MSUyNTI5LnBuZyIgYWx0PSIiIC8+PC9wPiI7czo1OiJjbGFzcyI7czoxMzoic2xpZGVzaG93LWRlcyI7czo1OiJzdGFydCI7czo0OiIxMDAwIjtzOjM6ImVuZCI7czowOiIiO3M6NjoiZGF0YV94IjtzOjM6IjQwMCI7czo2OiJkYXRhX3kiO3M6MjoiMzQiO3M6OToiYW5pbWF0aW9uIjtzOjQ6ImZhZGUiO3M6NjoiZWFzaW5nIjtzOjEzOiJlYXNlSW5PdXRRdWFkIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6MTthOjk6e3M6NDoidGV4dCI7czo3MToiPHAgc3R5bGU9ImNvbG9yOiNmZmZmZmY7IGZvbnQtd2VpZ2h0OmJvbGQ7IGxpbmUtaGVpZ2h0OjEuMzUiPkNoYW5lbDwvcD4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTIwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiI0NDIiO3M6NjoiZGF0YV95IjtzOjM6IjI0MCI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VJbkN1YmljIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6MjthOjk6e3M6NDoidGV4dCI7czo3MDoiPHAgc3R5bGU9ImNvbG9yOiNmZmZmZmY7IGxpbmUtaGVpZ2h0OjEuMzU7Zm9udC13ZWlnaHQ6Ym9sZCI+JDQzNTwvcD4NCiI7czo1OiJjbGFzcyI7czoxMzoic2xpZGVzaG93LWRlcyI7czo1OiJzdGFydCI7czo0OiIxNTAwIjtzOjM6ImVuZCI7czowOiIiO3M6NjoiZGF0YV94IjtzOjM6IjQ1NSI7czo2OiJkYXRhX3kiO3M6MzoiMjY4IjtzOjk6ImFuaW1hdGlvbiI7czo0OiJmYWRlIjtzOjY6ImVhc2luZyI7czoxMToiZWFzZU91dFNpbmUiO3M6NToic3BlZWQiO3M6MzoiMzAwIjt9fX1pOjI7YTo2OntzOjM6InVybCI7czo0ODoiMTM3MjkzMjMyMV8wXzEzNzI5MjIxNDJfMl8xMzY0NzkyNDQzX3NsaWRlMTMuanBnIjtzOjU6InRyYW5zIjtzOjQ6ImRlbW8iO3M6MTA6InNsb3RhbW91bnQiO3M6MToiNyI7czo0OiJsaW5rIjtzOjE0OiJmdXJuaXR1cmUuaHRtbCI7czo4OiJwb3NpdGlvbiI7czoxOiIwIjtzOjQ6ImluZm8iO2E6MTA6e2k6MDthOjk6e3M6NDoidGV4dCI7czoxNjE6IjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLXlGWjFrdTFFeVJ3L1VWa3lNSWRnejFJL0FBQUFBQUFBQURjL3NmaF85elFYOTJrL3MxMDAvYmlsbGllLWFjaGlsbGVvcy1sb3Vpcy12dWl0dG9uLTExLkpQRyIgYWx0PSIiIC8+IjtzOjU6ImNsYXNzIjtzOjEzOiJzbGlkZXNob3ctZGVzIjtzOjU6InN0YXJ0IjtzOjQ6IjEwMDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MjoiMzMiO3M6NjoiZGF0YV95IjtzOjI6IjQ2IjtzOjk6ImFuaW1hdGlvbiI7czo0OiJmYWRlIjtzOjY6ImVhc2luZyI7czoxMToiZWFzZU91dEV4cG8iO3M6NToic3BlZWQiO3M6MzoiMzAwIjt9aToxO2E6OTp7czo0OiJ0ZXh0IjtzOjE1NToiPGltZyB0aXRsZT0iUmVka2VuIiBzcmM9Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS8tNjRab0hBVEMxOTgvVVZreUx2VEdJVUkvQUFBQUFBQUFBRFUvNTJZZkt4TllRN3MvczEwMC8yMDEyLTA2LTA0LTExNDQxMTE1NTAzK2NvcHkuSlBHIiBhbHQ9IiIgLz4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTEwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiIxNzQiO3M6NjoiZGF0YV95IjtzOjI6IjU1IjtzOjk6ImFuaW1hdGlvbiI7czo0OiJmYWRlIjtzOjY6ImVhc2luZyI7czoxMToiZWFzZU91dEV4cG8iO3M6NToic3BlZWQiO3M6MzoiMzAwIjt9aToyO2E6OTp7czo0OiJ0ZXh0IjtzOjE0OToiPGltZyB0aXRsZT0iUmVka2VuIiBzcmM9Imh0dHBzOi8vbGg0Lmdvb2dsZXVzZXJjb250ZW50LmNvbS8tZTVRemJrMHM3Y2MvVVZreU5lMjAzU0kvQUFBQUFBQUFBRGsvcFgxLU5lZXBMdkEvczEwMC9uaXphbTAyLTEwMjV4NzY4K2NvcHkuSlBHIiBhbHQ9IiIgLz4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTIwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czoyOiI3MyI7czo2OiJkYXRhX3kiO3M6MjoiNzQiO3M6OToiYW5pbWF0aW9uIjtzOjQ6ImZhZGUiO3M6NjoiZWFzaW5nIjtzOjExOiJlYXNlT3V0RXhwbyI7czo1OiJzcGVlZCI7czozOiIzMDAiO31pOjM7YTo5OntzOjQ6InRleHQiO3M6MTQ5OiI8aW1nIHRpdGxlPSJSZWRrZW4iIHNyYz0iaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy12TXJOczcyMmV6SS9VVmxLeXFEY0pXSS9BQUFBQUFBQUFGRS9uS2RsOUp0SEJKWS9zMTAwL1BhcmFkaXNlX0RhbWlhbmkrY29weS5KUEciIGFsdD0iIiAvPiI7czo1OiJjbGFzcyI7czoxMzoic2xpZGVzaG93LWRlcyI7czo1OiJzdGFydCI7czo0OiIxMzAwIjtzOjM6ImVuZCI7czowOiIiO3M6NjoiZGF0YV94IjtzOjI6IjEwIjtzOjY6ImRhdGFfeSI7czozOiIxMjUiO3M6OToiYW5pbWF0aW9uIjtzOjQ6ImZhZGUiO3M6NjoiZWFzaW5nIjtzOjExOiJlYXNlT3V0RXhwbyI7czo1OiJzcGVlZCI7czozOiIzMDAiO31pOjQ7YTo5OntzOjQ6InRleHQiO3M6MTY4OiI8aW1nIHRpdGxlPSJSZWRrZW4iIHNyYz0iaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy0wNVR5Q1ZZM3hidy9VVmxLMldTVG1SSS9BQUFBQUFBQUFGay9teWFOcUVJUUVhYy9zMTAwL21pY2hhZWwtYW50b25pby1naGV6YS13ZWRnZS1zYW5kYWxzK2NvcHkuanBnIiBhbHQ9IiIgLz4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTQwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czoyOiIzOSI7czo2OiJkYXRhX3kiO3M6MzoiMTc2IjtzOjk6ImFuaW1hdGlvbiI7czo0OiJmYWRlIjtzOjY6ImVhc2luZyI7czoxMToiZWFzZU91dEV4cG8iO3M6NToic3BlZWQiO3M6MzoiMzAwIjt9aTo1O2E6OTp7czo0OiJ0ZXh0IjtzOjE1OToiPGltZyB0aXRsZT0iUmVka2VuIiBzcmM9Imh0dHBzOi8vbGg2Lmdvb2dsZXVzZXJjb250ZW50LmNvbS8tNlNUa3FpVEplbkUvVVZsSzRzRUxjY0kvQUFBQUFBQUFBRnMvcHRtcG9vakJuUk0vczEwMC8xOTE0NF8yMTkyM18xMzQ1NjUxMzQxXzI5Nitjb3B5LmpwZyIgYWx0PSIiIC8+IjtzOjU6ImNsYXNzIjtzOjEzOiJzbGlkZXNob3ctZGVzIjtzOjU6InN0YXJ0IjtzOjQ6IjE1MDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MjoiOTkiO3M6NjoiZGF0YV95IjtzOjM6IjIwNSI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VPdXRFeHBvIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6NjthOjk6e3M6NDoidGV4dCI7czoxOTM6IjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoNS5nb29nbGV1c2VyY29udGVudC5jb20vLWhHUmpxZ2xPcGRrL1VWbEt6RExpTHVJL0FBQUFBQUFBQUZNL1R2bW81ODAtYlZrL3MxMDAvU3ByaW5nLVN1bW1lci1Db2xsZWN0aW9uLW9mLTIwMTItSGFuZGJhZ3MtVHJlbmRzLWJ5LUJ1cmJlcnJ5K2NvcHkuanBnIiBhbHQ9IiIgLz4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTYwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiIxNjUiO3M6NjoiZGF0YV95IjtzOjM6IjE3NyI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VPdXRFeHBvIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6NzthOjk6e3M6NDoidGV4dCI7czoxMzA6IjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLVFmemNxUzlWdXVZL1VWa3lSUHRRUHVJL0FBQUFBQUFBQUVVL2RZME5WQktTVGRJL3MxMDEvcDYuanBnIiBhbHQ9IiIgLz4iO3M6NToiY2xhc3MiO3M6MTM6InNsaWRlc2hvdy1kZXMiO3M6NToic3RhcnQiO3M6NDoiMTcwMCI7czozOiJlbmQiO3M6MDoiIjtzOjY6ImRhdGFfeCI7czozOiIxODkiO3M6NjoiZGF0YV95IjtzOjM6IjEyMCI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VPdXRFeHBvIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6ODthOjk6e3M6NDoidGV4dCI7czoxNzA6IjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLXQ2Wk82dlE0MENNL1VWa3lUYnNJWlpJL0FBQUFBQUFBQUVjL2lTUjVZOWZXTFVrL3MxMDAvVDExd3Z4WGFoYlhYWGNLMC4yXzA0MzYwNC5qcGdfMTYweDE2MCtjb3B5LmpwZyIgYWx0PSIiIC8+IjtzOjU6ImNsYXNzIjtzOjEzOiJzbGlkZXNob3ctZGVzIjtzOjU6InN0YXJ0IjtzOjQ6IjE5MDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MzoiMTI4IjtzOjY6ImRhdGFfeSI7czoyOiIyMCI7czo5OiJhbmltYXRpb24iO3M6NDoiZmFkZSI7czo2OiJlYXNpbmciO3M6MTE6ImVhc2VPdXRFeHBvIjtzOjU6InNwZWVkIjtzOjM6IjMwMCI7fWk6OTthOjk6e3M6NDoidGV4dCI7czoxNDk6IjxpbWcgdGl0bGU9IlJlZGtlbiIgc3JjPSJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLWtMR2ZnR190a2VBL1VWbEsxbGlrd0FJL0FBQUFBQUFBQUZjL3VHcVNWaXBuejZ3L3MxMDAvb3JpZ2luYWwrJTI4MSUyOStjb3B5LmpwZyIgYWx0PSIiIC8+IjtzOjU6ImNsYXNzIjtzOjEzOiJzbGlkZXNob3ctZGVzIjtzOjU6InN0YXJ0IjtzOjQ6IjIwMDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MzoiMTEwIjtzOjY6ImRhdGFfeSI7czozOiIxMDgiO3M6OToiYW5pbWF0aW9uIjtzOjQ6ImZhZGUiO3M6NjoiZWFzaW5nIjtzOjExOiJlYXNlT3V0RXhwbyI7czo1OiJzcGVlZCI7czozOiIzMDAiO319fX0=]]></images>
+      <slider_type><![CDATA[responsitive]]></slider_type>
+      <slider_params><![CDATA[a:14:{s:10:"size_width";s:3:"635";s:11:"size_height";s:3:"320";s:14:"screen_width_1";s:4:"1200";s:14:"slider_width_1";s:3:"510";s:14:"screen_width_2";s:3:"980";s:14:"slider_width_2";s:3:"393";s:14:"screen_width_3";s:3:"768";s:14:"slider_width_3";s:3:"393";s:14:"screen_width_4";s:3:"516";s:14:"slider_width_4";s:3:"440";s:14:"screen_width_5";s:3:"321";s:14:"slider_width_5";s:3:"279";s:14:"screen_width_6";s:0:"";s:14:"slider_width_6";s:0:"";}]]></slider_params>
+      <delay><![CDATA[5000]]></delay>
+      <touch><![CDATA[on]]></touch>
+      <stop_hover><![CDATA[on]]></stop_hover>
+      <shuffle_mode><![CDATA[off]]></shuffle_mode>
+      <stop_slider><![CDATA[off]]></stop_slider>
+      <stop_after_loop><![CDATA[0]]></stop_after_loop>
+      <stop_at_slide><![CDATA[2]]></stop_at_slide>
+      <position><![CDATA[a:5:{s:4:"type";s:6:"center";s:6:"mg_top";s:1:"0";s:9:"mg_bottom";s:1:"0";s:7:"mg_left";s:1:"0";s:8:"mg_right";s:1:"0";}]]></position>
+      <appearance><![CDATA[a:7:{s:11:"shadow_type";s:1:"0";s:9:"show_time";s:5:"false";s:13:"time_position";s:3:"top";s:8:"bg_color";s:7:"#E9E9E9";s:7:"padding";s:0:"";s:11:"show_bg_img";s:5:"false";s:6:"bg_img";s:0:"";}]]></appearance>
+      <navigation><![CDATA[a:7:{s:8:"nav_type";s:6:"bullet";s:10:"nav_arrows";s:4:"none";s:9:"nav_style";s:5:"round";s:14:"nav_offset_hor";s:1:"0";s:15:"nav_offset_vert";s:2:"14";s:13:"nav_always_on";s:5:"false";s:11:"hide_thumbs";s:3:"200";}]]></navigation>
+      <thumbnail><![CDATA[a:3:{s:11:"thumb_width";s:3:"100";s:12:"thumb_height";s:2:"50";s:12:"thumb_amount";s:1:"5";}]]></thumbnail>
+      <visibility><![CDATA[a:3:{s:17:"hide_slider_under";s:1:"0";s:25:"hide_defined_layers_under";s:1:"0";s:21:"hide_all_layers_under";s:1:"0";}]]></visibility>
+      <trouble><![CDATA[a:2:{s:17:"jquery_noconflict";s:2:"on";s:10:"js_to_body";s:5:"false";}]]></trouble>
+      <status><![CDATA[1]]></status>
+    </slideshow>
+  </slideshows>
+  <widget_instance>
+    <widget id="1">
+      <instance_id><![CDATA[1]]></instance_id>
+      <title><![CDATA[EM0071 Header Top Banner]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"13";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:1:"1";s:5:"group";s:9:"all_pages";s:5:"block";s:10:"top.banner";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="2">
+      <instance_id><![CDATA[2]]></instance_id>
+      <title><![CDATA[EM0071 Megamenu]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:4:"menu";s:1:"1";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:1:"2";s:5:"group";s:9:"all_pages";s:5:"block";s:8:"top.menu";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[megamenupro/megamenupro]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="3">
+      <instance_id><![CDATA[3]]></instance_id>
+      <title><![CDATA[EM0071 Area01 All Categories]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"14";s:12:"custom_class";s:12:"all-category";s:25:"custom_html_wrapper_class";s:5:"span5";s:22:"custom_html_wrapper_id";s:19:"all-category-toogle";s:11:"block_title";s:14:"All Categories";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"3";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area1";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="5">
+      <instance_id><![CDATA[5]]></instance_id>
+      <title><![CDATA[EM0071 Area03 Sale Products]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:24:{s:8:"order_by";s:8:"name asc";s:11:"limit_count";s:3:"100";s:12:"column_count";s:0:"";s:12:"custom_class";s:0:"";s:14:"frontend_title";s:0:"";s:10:"item_class";s:5:"span3";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"135";s:16:"thumbnail_height";s:3:"135";s:17:"show_product_name";s:5:"false";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:5:"false";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:32:"em_sale_products/sale_grid.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[saleproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="6">
+      <instance_id><![CDATA[6]]></instance_id>
+      <title><![CDATA[EM0071 Area03 Slider Sale Products]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:9:{s:8:"instance";s:1:"5";s:9:"direction";s:1:"0";s:9:"container";s:14:".products-grid";s:12:"slider_width";s:0:"";s:13:"slider_height";s:0:"";s:12:"auto_sliding";s:1:"0";s:8:"circular";s:1:"0";s:15:"items_per_slide";s:1:"3";s:9:"css_class";s:6:"span13";}]]></widget_parameters>
+      <sort_order><![CDATA[2]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"6";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area2";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[sliderwidget/slide]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="7">
+      <instance_id><![CDATA[7]]></instance_id>
+      <title><![CDATA[EM0071 Area03 New Arrival]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:24:{s:11:"limit_count";s:1:"4";s:12:"column_count";s:0:"";s:12:"custom_class";s:25:"span13 custom-newarrivals";s:8:"order_by";s:8:"name asc";s:14:"frontend_title";s:11:"New Arrival";s:10:"item_class";s:5:"span3";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"150";s:16:"thumbnail_height";s:3:"150";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[3]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"7";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area2";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[newproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="8">
+      <instance_id><![CDATA[8]]></instance_id>
+      <title><![CDATA[EM0071 Area04 Featured Products 01]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"15";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"8";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="9">
+      <instance_id><![CDATA[9]]></instance_id>
+      <title><![CDATA[EM0071 Area04 Featured Products 02]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"16";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[2]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"9";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="10">
+      <instance_id><![CDATA[10]]></instance_id>
+      <title><![CDATA[EM0071 Area04 Featured Products 03]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"17";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[3]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"10";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="11">
+      <instance_id><![CDATA[11]]></instance_id>
+      <title><![CDATA[EM0071 Area04 Featured Products 04]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"18";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[4]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"11";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="12">
+      <instance_id><![CDATA[12]]></instance_id>
+      <title><![CDATA[EM0071 Area04 Featured Products 05]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"19";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[5]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"12";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="13">
+      <instance_id><![CDATA[13]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Bestseller]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:23:{s:11:"limit_count";s:3:"100";s:12:"column_count";s:0:"";s:12:"custom_class";s:12:"custom-color";s:14:"frontend_title";s:11:"Best Seller";s:10:"item_class";s:5:"span6";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:2:"92";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:2:"70";s:16:"thumbnail_height";s:2:"70";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:44:"em_bestseller_products/bestseller_list.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[bestsellerproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="14">
+      <instance_id><![CDATA[14]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Slider Bestseller]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:9:{s:8:"instance";s:2:"13";s:9:"direction";s:1:"1";s:9:"container";s:14:".products-list";s:12:"slider_width";s:0:"";s:13:"slider_height";s:0:"";s:12:"auto_sliding";s:1:"0";s:8:"circular";s:1:"0";s:15:"items_per_slide";s:1:"1";s:9:"css_class";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"14";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[sliderwidget/slide]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="15">
+      <instance_id><![CDATA[15]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Banner01]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"20";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"15";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="16">
+      <instance_id><![CDATA[16]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Network]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"21";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[2]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"16";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="17">
+      <instance_id><![CDATA[17]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Banner02]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"22";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[3]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"17";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="18">
+      <instance_id><![CDATA[18]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Tab New Arivals]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:23:{s:11:"limit_count";s:2:"10";s:12:"column_count";s:0:"";s:12:"custom_class";s:0:"";s:8:"order_by";s:8:"name asc";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"120";s:16:"thumbnail_height";s:3:"120";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:30:"em_new_products/new_list.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[newproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="19">
+      <instance_id><![CDATA[19]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Tab Latest]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:18:{s:8:"order_by";s:8:"name asc";s:11:"limit_count";s:2:"10";s:15:"thumbnail_width";s:3:"120";s:12:"column_count";s:0:"";s:16:"thumbnail_height";s:3:"120";s:12:"custom_class";s:17:"tab-latest-review";s:14:"frontend_title";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:14:"show_addtocart";s:5:"false";s:10:"show_label";s:4:"true";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:10:"show_price";s:4:"true";s:10:"show_addto";s:5:"false";s:14:"cache_lifetime";s:0:"";s:15:"choose_template";s:48:"em_recentviewproducts/list_products_simple.phtml";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[recentreviewproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="20">
+      <instance_id><![CDATA[20]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Tab Viewed]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:9:"page_size";s:2:"10";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"44";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:54:"reports/widget/viewed/column/viewed_default_list.phtml";}}}]]></page_groups>
+      <instance_type><![CDATA[reports/product_widget_viewed]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="21">
+      <instance_id><![CDATA[21]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Tabs Top 10]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:32:{s:12:"custom_class";s:8:"top_tabs";s:7:"title_1";a:19:{i:0;s:12:"New Arrivals";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_1";s:0:"";s:10:"instance_1";s:2:"18";s:7:"title_2";a:19:{i:0;s:6:"Latest";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_2";s:0:"";s:10:"instance_2";s:2:"19";s:7:"title_3";a:19:{i:0;s:15:"Recently Viewed";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_3";s:0:"";s:10:"instance_3";s:2:"20";s:7:"title_4";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_4";s:0:"";s:10:"instance_4";s:0:"";s:7:"title_5";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_5";s:0:"";s:10:"instance_5";s:0:"";s:7:"title_6";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_6";s:0:"";s:10:"instance_6";s:0:"";s:7:"title_7";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_7";s:0:"";s:10:"instance_7";s:0:"";s:7:"title_8";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_8";s:0:"";s:10:"instance_8";s:0:"";s:7:"title_9";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:7:"block_9";s:0:"";s:10:"instance_9";s:0:"";s:8:"title_10";a:19:{i:0;s:0:"";i:1;s:0:"";i:5;s:0:"";i:8;s:0:"";i:11;s:0:"";i:14;s:0:"";i:17;s:0:"";i:3;s:0:"";i:6;s:0:"";i:9;s:0:"";i:12;s:0:"";i:15;s:0:"";i:18;s:0:"";i:2;s:0:"";i:7;s:0:"";i:10;s:0:"";i:13;s:0:"";i:16;s:0:"";i:19;s:0:"";}s:8:"block_10";s:0:"";s:11:"instance_10";s:0:"";s:8:"instance";s:2:"21";}]]></widget_parameters>
+      <sort_order><![CDATA[4]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"18";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:18:"emtabs/group.phtml";}}}]]></page_groups>
+      <instance_type><![CDATA[tabs/group]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="22">
+      <instance_id><![CDATA[22]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Shoes Products Tab]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:25:{s:8:"order_by";s:8:"name asc";s:12:"new_category";a:1:{i:0;s:1:"5";}s:15:"featured_choose";s:11:"em_featured";s:11:"limit_count";s:1:"3";s:12:"column_count";s:0:"";s:12:"custom_class";s:0:"";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"110";s:16:"thumbnail_height";s:3:"110";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:40:"em_featured_products/featured_list.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[dynamicproducts/dynamicproducts]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="23">
+      <instance_id><![CDATA[23]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Bags Products Tab]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:25:{s:8:"order_by";s:8:"name asc";s:12:"new_category";a:1:{i:0;s:2:"35";}s:15:"featured_choose";s:11:"em_featured";s:11:"limit_count";s:1:"3";s:12:"column_count";s:0:"";s:12:"custom_class";s:0:"";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"110";s:16:"thumbnail_height";s:3:"110";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:40:"em_featured_products/featured_list.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[dynamicproducts/dynamicproducts]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="24">
+      <instance_id><![CDATA[24]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Cosmetic Products Tab]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:25:{s:8:"order_by";s:8:"name asc";s:12:"new_category";a:4:{i:0;s:1:"4";i:1;s:2:"19";i:2;s:2:"24";i:3;s:2:"20";}s:15:"featured_choose";s:11:"em_featured";s:11:"limit_count";s:1:"3";s:12:"column_count";s:0:"";s:12:"custom_class";s:0:"";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"110";s:16:"thumbnail_height";s:3:"110";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:9:"thumbnail";s:16:"show_description";s:5:"false";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:5:"false";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:4:"true";s:15:"choose_template";s:40:"em_featured_products/featured_list.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[dynamicproducts/dynamicproducts]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="25">
+      <instance_id><![CDATA[25]]></instance_id>
+      <title><![CDATA[EM0071 Area05 Products Tabs]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:32:{s:12:"custom_class";s:13:"products_tabs";s:7:"title_1";a:4:{i:0;s:5:"Shoes";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_1";s:0:"";s:10:"instance_1";s:2:"22";s:7:"title_2";a:4:{i:0;s:4:"Bags";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_2";s:0:"";s:10:"instance_2";s:2:"23";s:7:"title_3";a:4:{i:0;s:8:"Cosmetic";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_3";s:0:"";s:10:"instance_3";s:2:"24";s:7:"title_4";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_4";s:0:"";s:10:"instance_4";s:0:"";s:7:"title_5";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_5";s:0:"";s:10:"instance_5";s:0:"";s:7:"title_6";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_6";s:0:"";s:10:"instance_6";s:0:"";s:7:"title_7";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_7";s:0:"";s:10:"instance_7";s:0:"";s:7:"title_8";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_8";s:0:"";s:10:"instance_8";s:0:"";s:7:"title_9";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_9";s:0:"";s:10:"instance_9";s:0:"";s:8:"title_10";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:8:"block_10";s:0:"";s:11:"instance_10";s:0:"";s:8:"instance";s:2:"25";}]]></widget_parameters>
+      <sort_order><![CDATA[5]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"19";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:18:"emtabs/group.phtml";}}}]]></page_groups>
+      <instance_type><![CDATA[tabs/group]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="26">
+      <instance_id><![CDATA[26]]></instance_id>
+      <title><![CDATA[EM0071 Area06 Banner]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"23";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"20";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area6";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="27">
+      <instance_id><![CDATA[27]]></instance_id>
+      <title><![CDATA[EM0071 Area06 Brand]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"24";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="28">
+      <instance_id><![CDATA[28]]></instance_id>
+      <title><![CDATA[EM0071 Area06 Brand Slider]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:9:{s:8:"instance";s:2:"27";s:9:"direction";s:1:"0";s:9:"container";s:2:"ul";s:12:"slider_width";s:0:"";s:13:"slider_height";s:0:"";s:12:"auto_sliding";s:1:"0";s:8:"circular";s:1:"0";s:15:"items_per_slide";s:1:"1";s:9:"css_class";s:19:"custom-slider-brand";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"22";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area6";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[sliderwidget/slide]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="29">
+      <instance_id><![CDATA[29]]></instance_id>
+      <title><![CDATA[EM0071 Footer Text]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"25";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:3:"row";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"23";s:5:"group";s:9:"all_pages";s:5:"block";s:16:"bottom.container";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="30">
+      <instance_id><![CDATA[30]]></instance_id>
+      <title><![CDATA[EM0071 Footer Information]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"26";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:18:"footer-information";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[2]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"24";s:5:"group";s:9:"all_pages";s:5:"block";s:16:"bottom.container";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="31">
+      <instance_id><![CDATA[31]]></instance_id>
+      <title><![CDATA[EM0071 Area07 Featured Products]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"27";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:17:"Featured Products";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"25";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area7";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="32">
+      <instance_id><![CDATA[32]]></instance_id>
+      <title><![CDATA[EM0071 Sidebar Latest Review]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:18:{s:8:"order_by";s:8:"name asc";s:11:"limit_count";s:1:"3";s:15:"thumbnail_width";s:2:"80";s:12:"column_count";s:0:"";s:16:"thumbnail_height";s:2:"80";s:12:"custom_class";s:0:"";s:14:"frontend_title";s:13:"Latest Review";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:14:"show_addtocart";s:5:"false";s:10:"show_label";s:4:"true";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:10:"show_price";s:4:"true";s:10:"show_addto";s:5:"false";s:14:"cache_lifetime";s:0:"";s:15:"choose_template";s:48:"em_recentviewproducts/list_products_simple.phtml";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:2:{i:0;a:2:{s:10:"page_group";s:20:"notanchor_categories";s:20:"notanchor_categories";a:6:{s:7:"page_id";s:2:"26";s:5:"group";s:20:"notanchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_default";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:17:"anchor_categories";s:17:"anchor_categories";a:6:{s:7:"page_id";s:2:"27";s:5:"group";s:17:"anchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_layered";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[recentreviewproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="33">
+      <instance_id><![CDATA[33]]></instance_id>
+      <title><![CDATA[EM0071 Sidebar Banner]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"28";s:12:"custom_class";s:14:"sidebar-banner";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:3:{i:0;a:2:{s:10:"page_group";s:20:"notanchor_categories";s:20:"notanchor_categories";a:6:{s:7:"page_id";s:2:"28";s:5:"group";s:20:"notanchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_default";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:17:"anchor_categories";s:17:"anchor_categories";a:6:{s:7:"page_id";s:2:"29";s:5:"group";s:17:"anchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_layered";s:8:"template";s:0:"";}}i:2;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"30";s:5:"group";s:12:"all_products";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="34">
+      <instance_id><![CDATA[34]]></instance_id>
+      <title><![CDATA[EM0071 Checkout Sidebar Banner]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"29";s:12:"custom_class";s:22:"sidebar-checkout-login";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:3:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"31";s:5:"group";s:5:"pages";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:16:"customer_account";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"32";s:5:"group";s:5:"pages";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:22:"checkout_onepage_index";s:8:"template";s:0:"";}}i:2;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"34";s:5:"group";s:5:"pages";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:22:"customer_account_login";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="35">
+      <instance_id><![CDATA[35]]></instance_id>
+      <title><![CDATA[EM0071 Area02 Main Slideshow]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:2:{s:9:"slideshow";s:1:"1";s:12:"custom_class";s:6:"span13";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"33";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area2";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[slideshow2/slideshow2]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="36">
+      <instance_id><![CDATA[36]]></instance_id>
+      <title><![CDATA[EM0071 Details Alert Url Sample Block]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"35";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"35";s:5:"group";s:12:"all_products";s:5:"block";s:10:"alert.urls";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="37">
+      <instance_id><![CDATA[37]]></instance_id>
+      <title><![CDATA[EM0071 Details Extra Hint Sample Block]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"36";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"36";s:5:"group";s:12:"all_products";s:5:"block";s:22:"product.info.extrahint";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="38">
+      <instance_id><![CDATA[38]]></instance_id>
+      <title><![CDATA[EM0071 Detais Product View Short Description After]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"37";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"37";s:5:"group";s:12:"all_products";s:5:"block";s:18:"product.info.other";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="39">
+      <instance_id><![CDATA[39]]></instance_id>
+      <title><![CDATA[EM0071 Product Collateral Sample 1]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"38";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:12:"Custom Tab 1";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"38";s:5:"group";s:12:"all_products";s:5:"block";s:33:"product.info.additonal_collateral";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="40">
+      <instance_id><![CDATA[40]]></instance_id>
+      <title><![CDATA[EM0071 Product Collateral Sample 2]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"38";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:12:"Custom Tab N";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"39";s:5:"group";s:12:"all_products";s:5:"block";s:33:"product.info.additonal_collateral";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="41">
+      <instance_id><![CDATA[41]]></instance_id>
+      <title><![CDATA[EM0071 Area08 Sample Block]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"39";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"40";s:5:"group";s:12:"all_products";s:5:"block";s:8:"em_area8";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+    <widget id="42">
+      <instance_id><![CDATA[42]]></instance_id>
+      <title><![CDATA[EM0071 Area09 Sample Block]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"40";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"41";s:5:"group";s:12:"all_products";s:5:"block";s:8:"em_area9";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/em0071]]></package_theme>
+    </widget>
+  </widget_instance>
+</sample_data>

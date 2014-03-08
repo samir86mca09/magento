@@ -1,0 +1,62 @@
+<?php
+    $model	=	Mage::getModel('catalog/category');
+    $rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+    $category = $model->load($rootCategoryId);
+    $curId = $this->getRequest()->getParam('cat');
+    
+    $_helper    = $this->helper('catalog/output');
+    $cate	=	Mage::helper('em0071settings')->getCategoriesCustom($category,$curId);    
+    $count = count($cate);
+	$w= 85;
+	$h= 70;
+?>
+
+<div class="featured_category_products_content">
+	<ul class="category-products-grid featured-category-products-item" id="featured_category_products">        
+		<?php $i = 1; foreach($cate as $_cate): ?>
+			<?php $_cate	=	Mage::getModel('catalog/category')->load($_cate->getId()); ?>
+			<?php if($_cate->getIsActive() == 1): ?>
+				<li class="span4 item">
+					<div class="cate_info">
+						<h2><?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?></h2>
+					</div>
+					<div class="cate_product">  
+						<ul class="cate_product_list">
+							<?php
+								$collection = Mage::getResourceModel('catalog/product_collection')
+									->addMinimalPrice()
+									->addFinalPrice()
+									->addTaxPercents()
+									->addAttributeToSelect(Mage::getSingleton('catalog/config')->getProductAttributes())
+									->addUrlRewrite()
+									->setStoreId($_cate->getStoreId())
+									->addCategoryFilter($_cate)
+									->setVisibility(Mage::getSingleton('catalog/product_visibility')->getVisibleInCatalogIds())
+									->addAttributeToSort('created_at', 'desc')
+									->setPageSize(10)
+									->setCurPage(1);    
+								$j = 1;
+								foreach ($collection as $_product){
+									echo "<li class='cate_product_list_item'>";
+									echo "<span class='numb'>".$j."</span>";
+									if ($j ==1){
+										echo "<a href='". $_product->getProductUrl()."' title='". $this->stripTags($_product->getName(), null, true) ."' class='product-image'>";
+                                        echo Mage::helper('productlabels')->display($_product);
+                                        echo "<img src='". $this->helper('catalog/image')->init($_product, 'small_image')->resize($w, $h) ."' width='".$w."' height='".$h."' alt='".$this->stripTags($_product->getName(), null, true) ."' /></a>";
+                                        echo '<div class="product-shop">';
+									}
+									echo "<h3 class='product-name'><a href='". $_product->getProductUrl()."' title='". $this->stripTags($_product->getName(), null, true) ."'>".$this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ."</a></h3>";
+									if ($j ==1){
+										echo "</div>";
+									}
+									echo "</li>";
+									$j++;
+								}							
+							?>   
+						</ul>
+					</div> 
+				</li>
+            <?php endif ?>                                 
+		<?php endforeach ?>	  				
+	</ul>
+</div>

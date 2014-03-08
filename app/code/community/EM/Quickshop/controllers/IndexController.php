@@ -1,8 +1,6 @@
 <?php
 class EM_Quickshop_IndexController extends Mage_Core_Controller_Front_Action
 {
-	protected $_cacheTags = array(Mage_Core_Block_Abstract::CACHE_GROUP);
-	protected $_cacheLifetime = 86400;
 	
     public function indexAction()
     {
@@ -91,150 +89,46 @@ class EM_Quickshop_IndexController extends Mage_Core_Controller_Front_Action
      */
     public function viewAction()
     {
-		$html = $this->_loadCache();
-		if ($html === false) {
-			// Get initial data from request
-			$categoryId = (int) $this->getRequest()->getParam('category', false);
-			$productId  = (int) $this->getRequest()->getParam('id');
-				
-			$path  = (string) $this->getRequest()->getParam('path');
-			$path	=	str_replace("_!_","/",$path);
-			$path[0] == "\/" ? $path = substr($path, 1, strlen($path)) : $path;		
-			$tableName = Mage::getSingleton('core/resource')->getTableName('core_url_rewrite'); 
-			$write = Mage::getSingleton('core/resource')->getConnection('core_write');
+        // Get initial data from request
+        $categoryId = (int) $this->getRequest()->getParam('category', false);
+        $productId  = (int) $this->getRequest()->getParam('id');
+			
+		$path  = (string) $this->getRequest()->getParam('path');
+		$path	=	str_replace("_!_","/",$path);
+		$path[0] == "\/" ? $path = substr($path, 1, strlen($path)) : $path;		
+		$tableName = Mage::getSingleton('core/resource')->getTableName('core_url_rewrite'); 
+		$write = Mage::getSingleton('core/resource')->getConnection('core_write');
 
-			$query = "select MAIN_TABLE.`product_id` from `{$tableName}` as MAIN_TABLE where MAIN_TABLE.`request_path` in('{$path}')";
-			$readresult=$write->query($query);
-			if ($row = $readresult->fetch() ) {
-				$productId=$row['product_id'];
-			}		
-			$this->_cacheTags[] = Mage_Catalog_Model_Product::CACHE_TAG.'_'.$productId;
-			//print_r($this->getCacheTags());
-			$specifyOptions = $this->getRequest()->getParam('options');
+		$query = "select MAIN_TABLE.`product_id` from `{$tableName}` as MAIN_TABLE where MAIN_TABLE.`request_path` in('{$path}')";
+		$readresult=$write->query($query);
+		if ($row = $readresult->fetch() ) {
+			$productId=$row['product_id'];
+		}		
+		$specifyOptions = $this->getRequest()->getParam('options');
 
-			// Prepare helper and params
-			$viewHelper = Mage::helper('quickshop/product_view');
+        // Prepare helper and params
+        $viewHelper = Mage::helper('quickshop/product_view');
 
 
-			$params = new Varien_Object();
-			$params->setCategoryId($categoryId);
-			$params->setSpecifyOptions($specifyOptions);
+        $params = new Varien_Object();
+        $params->setCategoryId($categoryId);
+        $params->setSpecifyOptions($specifyOptions);
 
-			// Render page
-			try {
-				$viewHelper->prepareAndRender($productId, $this, $params);
-				$html = $this->getLayout()->getBlock('root')->toHtml();
-				$this->_saveCache($html);
-				$this->getResponse()->setBody($html);
-			} catch (Exception $e) {
-				if ($e->getCode() == $viewHelper->ERR_NO_PRODUCT_LOADED) {
-					if (isset($_GET['store'])  && !$this->getResponse()->isRedirect()) {
-						$this->_redirect('');
-					} elseif (!$this->getResponse()->isRedirect()) {
-						$this->_forward('noRoute');
-					}
-				} else {
-					Mage::logException($e);
-					$this->_forward('noRoute');
-				}
-			}
-		} else {
-			$this->getResponse()->setBody($html);
-		}
-    }
-	
-	protected function getCacheLifetime(){
-		return $this->_cacheLifetime;
-	}
-	
-	/**
-     * Get Key for caching block content
-     *
-     * @return string
-     */
-	public function getCacheKey(){
-		return implode('|',array(
-			'em_quickshop',
-			Mage::app()->getStore()->getId(),
-			(int)Mage::app()->getStore()->isCurrentlySecure(),
-			Mage::app()->getStore()->getCurrentCurrencyCode(),
-            Mage::getSingleton('customer/session')->getCustomerGroupId(),
-			(int) $this->getRequest()->getParam('category', false),
-			(int) $this->getRequest()->getParam('id'),
-			$this->getRequest()->getParam('path')
-		));
-	}
-	
-	/**
-     * Get tags array for saving cache
-     *
-     * @return array
-     */
-	protected function getCacheTags(){
-		return $this->_cacheTags;
-	}
-	
-	/**
-     * Load block html from cache storage
-     *
-     * @return string | false
-     */
-    protected function _loadCache()
-    {
-        if (is_null($this->getCacheLifetime()) || !Mage::app()->useCache(Mage_Core_Block_Abstract::CACHE_GROUP)) {
-            return false;
+        // Render page
+        try {
+            $viewHelper->prepareAndRender($productId, $this, $params);
+        } catch (Exception $e) {
+            if ($e->getCode() == $viewHelper->ERR_NO_PRODUCT_LOADED) {
+                if (isset($_GET['store'])  && !$this->getResponse()->isRedirect()) {
+                    $this->_redirect('');
+                } elseif (!$this->getResponse()->isRedirect()) {
+                    $this->_forward('noRoute');
+                }
+            } else {
+                Mage::logException($e);
+                $this->_forward('noRoute');
+            }
         }
-        $cacheKey = $this->getCacheKey();
-        /** @var $session Mage_Core_Model_Session */
-        $session = Mage::getSingleton('core/session');
-        $cacheData = Mage::app()->loadCache($cacheKey);
-        if ($cacheData) {
-            $cacheData = str_replace(
-                $this->_getSidPlaceholder($cacheKey),
-                $session->getSessionIdQueryParam() . '=' . $session->getEncryptedSessionId(),
-                $cacheData
-            );
-        }
-        return $cacheData;
-    }
-	
-	/**
-     * Save block content to cache storage
-     *
-     * @param string $data
-     * @return EM_Quickshop_IndexController
-     */
-    protected function _saveCache($data)
-    {
-        if (is_null($this->getCacheLifetime()) || !Mage::app()->useCache(Mage_Core_Block_Abstract::CACHE_GROUP)) {
-            return false;
-        }
-        $cacheKey = $this->getCacheKey();
-        /** @var $session Mage_Core_Model_Session */
-        $session = Mage::getSingleton('core/session');
-        $data = str_replace(
-            $session->getSessionIdQueryParam() . '=' . $session->getEncryptedSessionId(),
-            $this->_getSidPlaceholder($cacheKey),
-            $data
-        );
-
-        Mage::app()->saveCache($data, $cacheKey, $this->getCacheTags(), $this->getCacheLifetime());
-        return $this;
-    }
-	
-	/**
-     * Get SID placeholder for cache
-     *
-     * @param null|string $cacheKey
-     * @return string
-     */
-    protected function _getSidPlaceholder($cacheKey = null)
-    {
-        if (is_null($cacheKey)) {
-            $cacheKey = $this->getCacheKey();
-        }
-
-        return '<!--SID=' . $cacheKey . '-->';
     }
 
     /**

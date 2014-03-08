@@ -28,10 +28,52 @@ class EM_Sliderwidget_Block_Slide
 extends Mage_Core_Block_Template
 implements Mage_Widget_Block_Interface
 {
+	protected $idJs;
 	public function _toHtml(){
 		$this->setTemplate('em_sliderwidget/slide.phtml');
 		return parent::_toHtml();
 	}
+	
+	public function generateIdJs(){
+		$this->idJs = "slide_".rand(0,100);
+		return $this;
+	}
+	
+	public function getIdJs(){
+		if(!$this->idJs)
+			$this->generateIdJs();
+		return $this->idJs;	
+	}
+	
+	public function getSelector(){
+		$container = $this->getData('container');
+		$containerArray = explode(',',$container);
+		$selector = array();
+		foreach($containerArray as $item){
+			$selector[] = '#'.$this->getIdJs().' '.$item;
+		}
+		
+		return implode(',',$selector);
+	}
+	
+	public function getKeyBoard(){
+		$keyboard = $this->getData('keyboard');
+		if($keyboard)
+			return 'true';
+		return 'false';	
+	}
+	
+	public function getContent(){
+		$helper = Mage::helper('cms');
+		$processor = $helper->getBlockTemplateProcessor();
+		$content = '';
+		$staticBlockId = $this->getData('static_block');
+		if($staticBlockId)
+			$content .= $processor->filter(Mage::getModel('cms/block')->load($staticBlockId)->getContent());
+		$content .= $processor->filter($this->getWidgetInstance());
+		return $content;	
+	}
+	
 	/* 
 		Get directives of widget 
 		param : int $number -> order of widget instance
@@ -59,13 +101,5 @@ implements Mage_Widget_Block_Interface
 			$directives = Mage::getSingleton('widget/widget')->getWidgetDeclaration($instance->getInstanceType(),$params);
 		}		
 		return $directives;
-	}
-	
-	/*
-		Show html slider
-		return : string
-	*/
-	public function showSlider(){
-			
 	}
 }

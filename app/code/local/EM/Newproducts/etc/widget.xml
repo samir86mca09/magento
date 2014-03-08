@@ -3,48 +3,14 @@
     <newproducts_list type="newproducts/list" translate="name description" module="newproducts" >
         <name>EM New Products</name>
         <description type="desc">EM New Products in Multi Categories</description>
-        <parameters>        
-            <order_by>
-                <label>Order by</label>
-                <visible>1</visible>
-                <required>1</required>
-                <type>select</type>
-				<sort_order>4</sort_order>
-                <values>
-                    <order_by_1 translate="label">
-                        <value>name asc</value>
-                        <label>Name ASC</label>
-                    </order_by_1>
-					<order_by_11 translate="label">
-                        <value>name desc</value>
-                        <label>Name DESC</label>
-                    </order_by_11>
-                    <order_by_2 translate="label">
-                        <value>position asc</value>
-                        <label>Position ASC</label>
-                    </order_by_2>
-                    <order_by_21 translate="label">
-                        <value>position desc</value>
-                        <label>Position DESC</label>
-                    </order_by_21>					
-                    <order_by_3 translate="label">
-                        <value>price asc</value>
-                        <label>Price ASC</label>
-                    </order_by_3>
-                    <order_by_31 translate="label">
-                        <value>price desc</value>
-                        <label>Price DESC</label>
-                    </order_by_31>					
-                </values>
-            </order_by>			
+        <parameters>			
 		            
             <new_category translate="label">            
                 <label>Choose Categories</label>
                 <visible>1</visible>
                 <description>You can choose many categories. Leave empty for selecting all categories</description>
                 <type>multiselect</type>
-                <source_model>newproducts/categorytree</source_model>
-
+                <source_model>newproducts/categorytree</source_model>          
             </new_category>
             
             <limit_count>
@@ -63,7 +29,32 @@
                 <required>0</required>
                 <type>text</type>
             </column_count>
-          
+			
+          <order_by>
+                <label>Order by</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+				<sort_order>4</sort_order>
+                <values>
+                    <order_by_1 translate="label">
+                        <value>name asc</value>
+                        <label>Name ASC</label>
+                    </order_by_1>
+					<order_by_11 translate="label">
+                        <value>name desc</value>
+                        <label>Name DESC</label>
+                    </order_by_11>				
+                    <order_by_3 translate="label">
+                        <value>price asc</value>
+                        <label>Price ASC</label>
+                    </order_by_3>
+                    <order_by_31 translate="label">
+                        <value>price desc</value>
+                        <label>Price DESC</label>
+                    </order_by_31>					
+                </values>
+            </order_by>
             
             <custom_class>
                 <label>Custom Wrapper Class</label>	
@@ -79,6 +70,13 @@
 				<type>text</type>
 			</frontend_title>
             
+			<item_class>
+                <label>Item Class Custom</label>
+                <description>Custom class for li item</description>
+				<visible>1</visible>
+				<type>text</type>
+            </item_class>
+			
             <frontend_description>
 				<label>Frontend Description</label>	
 				<visible>1</visible>
@@ -86,14 +84,14 @@
 				<type>text</type>
 			</frontend_description>
 			
-			<item_class>
-                <label>Item Class Custom</label>
-                <description>Also, this class can be used to customize the items' width. Ex: span1, span2...</description>
+			<item_width>
+                <label>Item Width</label>	
+				<description>unit: px</description>
 				<visible>1</visible>
                 <required>0</required>
 				<type>text</type>
 				<value></value>
-            </item_class>
+            </item_width>
             
             <item_height>
                 <label>Item Height</label>
@@ -104,6 +102,14 @@
 				<value></value>
             </item_height>
 
+			<item_spacing>
+                <label>Item Spacing</label>
+				<description>Spacing between 2 items. unit: px</description>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<value></value>
+            </item_spacing>
             
             <thumbnail_width>
                 <label>Thumbnail Width</label>	
@@ -155,6 +161,18 @@
                 </values>
             </show_thumbnail>
             
+            <alt_img>
+                <label>Alternative image</label>    
+                <description>Image should be displayed when hover to the thumbnail image.</description>
+                <visible>1</visible>
+                <required>0</required>
+                <type>select</type>
+                <source_model>newproducts/config_altimg</source_model>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+            </alt_img>
+
             <show_description>
                 <label>Show Product's Description</label>	
 				<visible>1</visible>
@@ -271,7 +289,7 @@
                         <value>em_new_products/new_grid.phtml</value>
                         <label>Grid new products</label>
                     </grid>
-					<cust translate="label">
+			<cust translate="label">
                         <value>custom_template</value>
                         <label>Display as custom template ...</label>
                     </cust>
@@ -285,14 +303,12 @@
 				<type>text</type>
 				<value></value>			
 			</custom_theme>
-			
 			<cache_lifetime>				
 				<label>Cache Lifetime (Seconds)</label>
 				<description>7200 seconds by default, if not set. To refresh instantly, Clear the Blocks HTML Output Cache.</description>
 				<visible>1</visible>				
 				<type>text</type>
 				<value></value>
-
 			</cache_lifetime>
 			
         </parameters>

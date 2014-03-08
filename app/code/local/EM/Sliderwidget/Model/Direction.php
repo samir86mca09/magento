@@ -14,13 +14,13 @@ class EM_Sliderwidget_Model_Direction extends Mage_Core_Model_Abstract
     {
 		return array(
 			array(
-				'value'	=>	'0',
-				'label'	=>	Mage::helper('sliderwidget')->__('Horizontal')
-			),
-			array(
 				'value'	=>	'1',
 				'label'	=>	Mage::helper('sliderwidget')->__('Vertical')
-			)			
+			),
+			array(
+				'value'	=>	'0',
+				'label'	=>	Mage::helper('sliderwidget')->__('Horizontal')
+			)
 		);
     }
 }

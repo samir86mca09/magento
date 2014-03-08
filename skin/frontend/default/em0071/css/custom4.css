@@ -1,0 +1,25 @@
+/**
+ * EMThemes
+ *
+ * @license commercial software
+ * @copyright (c) 2012 Codespot Software JSC - EMThemes.com. (http://www.emthemes.com)
+ */
+ 
+/*main-slishow*/
+.nivo-controlNav{ right:20%;}
+.slider-wrapper{ border:0;}
+.nivo-caption{ bottom:30px; opacity:1;}
+.nivo-caption span{ font-weight:bold;}
+.hnav .menu-item-depth-0 > .menu-container, .em-catalog-navigation.horizontal > li > ul, .em-catalog-navigation.horizontal > li:hover > ul{ top:49px;}
+/*========== fix ipod ==========*/
+@media screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+	.nivo-caption span:first-child{ font-size:24px; line-height:24px;}
+	.nivo-caption span{ font-size:18px; line-height:18px; padding-bottom:10px;}
+	.nivo-caption a{ font-size:12px; }
+	.nivo-controlNav{ display:none}
+	.nivo-caption{ bottom:10px;}
+}	
+
+

@@ -47,7 +47,7 @@
                     <div class="product-shop">
                         <div class="f-fix">
                             <?php if($_showname=="true"): ?>
-                                <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h3>
+                                <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>)"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h3>
                             <?php endif; ?>
                             <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
                             <?php if($_showprice=="true"): ?>

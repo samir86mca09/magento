@@ -5,7 +5,7 @@ class EM_Productlabels_Block_Adminhtml_Productlabels_Grid extends Mage_Adminhtml
   {
       parent::__construct();
       $this->setId('productlabelsGrid');
-      $this->setDefaultSort('id');
+      $this->setDefaultSort('entity_id');
       $this->setDefaultDir('ASC');
       $this->setSaveParametersInSession(true);
   }
@@ -21,11 +21,11 @@ class EM_Productlabels_Block_Adminhtml_Productlabels_Grid extends Mage_Adminhtml
 
   protected function _prepareColumns()
   {
-      $this->addColumn('id', array(
+      $this->addColumn('entity_id', array(
           'header'    => Mage::helper('productlabels')->__('ID'),
           'align'     =>'right',
           'width'     => '50px',
-          'index'     => 'id',
+          'index'     => 'entity_id',
       ));
 
       $this->addColumn('name', array(

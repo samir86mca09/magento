@@ -51,21 +51,21 @@
 				$containerStyle .= "float:right;";
 			break;
 		}
-
+		
 		//add background color
 		$backgrondColor = trim($slider["appearance"]["bg_color"]);
 		if(!empty($backgrondColor))
 			$containerStyle .= "background-color:$backgrondColor;";
-
-		//set padding
+						
+		//set padding			
 		$containerStyle .= "padding:".$slider["appearance"]["padding"]."px;";
-
+			
 		//set margin:
 		if($sliderPosition != "center"){
 			$containerStyle .= "margin-left:".$slider["position"]["mg_left"]."px;";
 			$containerStyle .= "margin-right:".$slider["position"]["mg_right"]."px;";
 		}
-
+		
 		$containerStyle .= "margin-top:".$slider["position"]["mg_top"]."px;";
 		$containerStyle .= "margin-bottom:".$slider["position"]["mg_bottom"]."px;";
 
@@ -102,7 +102,7 @@
 				$containerStyle .= "max-height:{$bannerHeight}px;";						
 			break;
 		}
-
+		
 		$htmlTimerBar = "";
 		if($slider['appearance']['show_time'] == "true"){
 			$timerPosition = $slider['appearance']['time_position'];
@@ -192,7 +192,7 @@
 				<li data-transition="<?php echo $value['trans'] ?>" data-slotamount="<?php echo $value['slotamount'] ?>" <?php if($value['link'] != ""): ?> data-link="<?php echo $value['link'] ?>"<?php endif?> <?php echo $htmlParams?>>
 				   <img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'em_slideshow/'.$value['url']; ?>" alt="" <?php echo $htmlImageCentering?> />
 				   <?php foreach($value['info'] as $skey=>$sval): ?>
-						<div class="caption <?php echo $sval['animation'] ?> <?php echo $sval['class'] ?>" data-x="<?php echo $sval['data_x'] ?>" data-y="<?php echo $sval['data_y'] ?>"	data-speed="<?php echo $sval['speed'] ?>" data-start="<?php echo $sval['start'] ?>" data-end="<?php echo $sval['end'] ?>" data-easing="<?php echo $sval['easing'] ?>" ><?php echo $sval['text'] ?></div>
+						<div class="caption <?php echo $sval['animation'] ?> <?php echo $sval['class'] ?>" data-x="<?php echo $sval['data_x'] ?>" data-y="<?php echo $sval['data_y'] ?>"	data-speed="<?php echo $sval['speed'] ?>" data-start="<?php echo $sval['start'] ?>" <?php if($sval['end']):?> data-end="<?php echo $sval['end'] ?>" <?php endif ?> data-easing="<?php echo $sval['easing'] ?>" ><?php echo $sval['text'] ?></div>
 				   <?php endforeach ?>
 				</li>
 			<?php endforeach ?>

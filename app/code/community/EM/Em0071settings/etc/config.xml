@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EM_Em0071settings>
+            <version>0.1.0</version>
+        </EM_Em0071settings>
+    </modules>
+	 <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <em0071>
+                                            <title>Image Configure</title>
+                                        </em0071>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+				<em0071settings>
+					<file>em0071settings.xml</file>
+				</em0071settings>
+            </updates>
+        </layout>
+		<menu>
+			<emthemes translate="title">
+				<title>EMThemes</title>
+				<sort_order>72</sort_order>
+				<children>
+					<em0071_setting module="em0071settings" translate="title">
+						<title>EM Taobaus Settings</title>
+						<sort_order>10</sort_order>
+						<action>adminhtml/system_config/edit/section/em0071/</action>
+					</em0071_setting>
+					<help module="em0071settings" translate="title">
+						<title>Help &amp; Support</title>
+						<sort_order>200</sort_order>
+						<children>
+							<em0071_userguide module="em0071settings" translate="title">
+								<title>EM Taobaus User Guide</title>
+								<sort_order>10</sort_order>
+								<action>adminhtml/em0071settings_link/userguide/</action>
+							</em0071_userguide>
+							<forum module="em0071settings" translate="title">
+								<title>Community Forum</title>
+								<sort_order>20</sort_order>
+								<action>adminhtml/em0071settings_link/gotoforum/</action>
+							</forum>
+							<ticket module="em0071settings" translate="title">
+								<title>Submit a Support Ticket</title>
+								<sort_order>30</sort_order>
+								<action>adminhtml/em0071settings_link/submitticket/</action>
+							</ticket>
+                            <em0071_sample_data module="em0071settings" translate="title">
+                                <title>EM0071 Taobaus Sample Data</title>
+                                <sort_order>50</sort_order>
+                                <action>adminhtml/em0071settings_theme/export/</action>
+                            </em0071_sample_data>
+						</children>
+					</help>
+					<more module="em0071settings" translate="title">
+						<title>More...</title>
+						<sort_order>210</sort_order>
+						<children>
+							<customization module="em0071settings" translate="title">
+								<title>I need theme customization</title>
+								<sort_order>10</sort_order>
+								<action>adminhtml/em0071settings_link/service_customization/</action>
+							</customization>
+							<design module="em0071settings" translate="title">
+								<title>I need custom design</title>
+								<sort_order>20</sort_order>
+								<action>adminhtml/em0071settings_link/service_design/</action>
+							</design>
+							<dev module="em0071settings" translate="title">
+								<title>Extension Development</title>
+								<sort_order>30</sort_order>
+								<action>adminhtml/em0071settings_link/service_extdev/</action>
+							</dev>
+							<boost module="em0071settings" translate="title">
+								<title>Speed Optimization</title>
+								<sort_order>40</sort_order>
+								<action>adminhtml/em0071settings_link/service_boost/</action>
+							</boost>
+							<more module="em0071settings" translate="title">
+								<title>More...</title>
+								<sort_order>60</sort_order>
+								<action>adminhtml/em0071settings_link/service_more/</action>
+							</more>
+						</children>
+					</more>
+				</children>
+			</emthemes>
+		</menu>
+    </adminhtml>
+
+    <frontend>
+        <routers>
+            <em0071settings>
+                <use>standard</use>
+                <args>
+                    <module>EM_Em0071settings</module>
+                    <frontName>em0071settings</frontName>
+                </args>
+            </em0071settings>
+        </routers>
+        <layout>
+            <updates>
+                <em0071settings>
+                    <file>em0071settings.xml</file>
+                </em0071settings>
+            </updates>
+        </layout>
+		<events>
+    		<controller_action_layout_generate_blocks_before>
+    			<observers>
+    				<em0071_config_after_save>
+    					<class>EM_Em0071settings_Model_Observer</class>
+    					<method>beforeGenerateBlocks</method> 
+    				</em0071_config_after_save>
+    			</observers>
+    		</controller_action_layout_generate_blocks_before>		
+			<catalog_product_collection_load_before>
+    			<observers>
+    				<em0071settings>
+    					<class>EM_Em0071settings_Model_Observer</class>
+    					<method>beforeCatalogProductCollectionLoad</method> 
+    				</em0071settings>
+    			</observers>
+    		</catalog_product_collection_load_before>
+    	</events>
+    </frontend>
+    <admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<em0071settings before="Mage_Adminhtml">EM_Em0071settings_Adminhtml</em0071settings>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+    </admin>
+    <adminhtml>
+		
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<EM_Em0071settings>
+							<title>em0071settings Module</title>
+							<sort_order>10</sort_order>
+						</EM_Em0071settings>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				<em0071settings>
+					<file>em0071settings.xml</file>
+				</em0071settings>
+			</updates>
+		</layout>
+        <events>
+    		<controller_action_postdispatch_adminhtml_system_config_save>
+    			<observers>
+    				<config_after_save>
+    					<class>EM_Em0071settings_Model_Observer</class>
+    					<method>afterConfigSave</method> 
+    				</config_after_save>
+    			</observers>
+    		</controller_action_postdispatch_adminhtml_system_config_save>		
+    	</events> 
+    </adminhtml>
+    
+    <global>
+        <models>
+            <em0071settings>
+                <class>EM_Em0071settings_Model</class>
+                <resourceModel>em0071settings_mysql4</resourceModel>
+            </em0071settings>
+            <em0071settings_mysql4>
+                <class>EM_Em0071settings_Model_Mysql4</class>
+                <entities>
+                    <em0071settings>
+                        <table>em0071settings</table>
+                    </em0071settings>
+					<megamenupro>
+                        <table>megamenupro</table>
+                    </megamenupro>
+                    <media>
+                        <table>em_slideshow2_media</table>
+                    </media>
+					<slider>
+                        <table>em_slideshow2_slider</table>
+                    </slider>
+                </entities>
+            </em0071settings_mysql4>
+        </models>
+        <resources>
+            <em0071settings_setup>
+                <setup>
+                    <module>EM_Em0071settings</module>
+					<class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </em0071settings_setup>
+            <em0071settings_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </em0071settings_write>
+            <em0071settings_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </em0071settings_read>
+        </resources>
+        <blocks>
+            <em0071settings>
+                <class>EM_Em0071settings_Block</class>
+            </em0071settings>
+        </blocks>
+        <helpers>
+            <em0071settings>
+                <class>EM_Em0071settings_Helper</class>
+            </em0071settings>
+			<catalog>
+				<rewrite>
+					<image>EM_Em0071settings_Helper_CatalogImage</image>
+				</rewrite>
+			</catalog>
+        </helpers>
+    </global>
+	<default>
+		<em0071>
+			<general>
+				<disable_default_nav>0</disable_default_nav>
+				<freezed_top_menu>0</freezed_top_menu>
+				<disable_frontend_variation>1</disable_frontend_variation>
+				<disable_footer_links>0</disable_footer_links>
+			</general>
+			<products_grid>
+                <show_product_name>1</show_product_name>
+                <show_sku>1</show_sku>
+                <show_thumbnail>1</show_thumbnail>
+                <show_desc>1</show_desc>
+                <show_price>1</show_price>
+                <show_reviews>1</show_reviews>
+                <show_addtocart>1</show_addtocart>
+                <show_addto>1</show_addto>
+                <show_label>1</show_label>
+			</products_grid>
+            <products_list>
+                <show_product_name>1</show_product_name>
+                <show_sku>1</show_sku>
+                <show_thumbnail>1</show_thumbnail>
+                <show_desc>1</show_desc>
+                <show_price>1</show_price>
+                <show_reviews>1</show_reviews>
+                <show_addtocart>1</show_addtocart>
+                <show_addto>1</show_addto>
+                <show_label>1</show_label>
+			</products_list>
+			<image_product>
+				<use_tabs>1</use_tabs>
+			</image_product>
+			<ajaxcart>
+				<auto_close>0</auto_close>
+			</ajaxcart>
+		</em0071>
+	</default>
+</config>

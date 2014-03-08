@@ -43,7 +43,7 @@
     </admin>
     <adminhtml>
 		<menu>
-			<emthemes module="slideshow2" translate="title">
+            <emthemes module="slideshow2" translate="title">
                 <title>EMThemes</title>
                 <sort_order>73</sort_order>
                 <children>
@@ -53,7 +53,7 @@
                         <action>adminhtml/slider</action>
                     </slideshow2>
                 </children>
-            </emthemes>
+            </emthemes> 
 		</menu>
 		<acl>
 			<resources>
@@ -62,24 +62,10 @@
 				</all>
 				<admin>
 					<children>
-						<cms>
-							<children>
-								<slideshow2 module="slideshow2">
-									<title>EM Slideshow</title>
-									<sort_order>21</sort_order>
-									<children>
-										<save translate="title">
-											<title>Save Slide</title>
-											<sort_order>0</sort_order>
-										</save>
-										<delete translate="title">
-											<title>Delete Slide</title>
-											<sort_order>10</sort_order>
-										</delete>
-									</children>
-								</slideshow2>
-							</children>
-						</cms>
+						<EM_Slideshow2>
+							<title>Slideshow2 Module</title>
+							<sort_order>10</sort_order>
+						</EM_Slideshow2>
 					</children>
 				</admin>
 			</resources>

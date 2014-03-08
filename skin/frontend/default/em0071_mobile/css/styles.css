@@ -1,0 +1,17 @@
+/* Print page */
+.page-print{padding:10px!important;}
+.page-print>div{padding:10px 0;}
+.page-print h2,
+.page-print h1{font-size:18px;color:#000;text-transform:capitalize;letter-spacing:0px;padding-bottom:0px;margin-bottom:5px}
+.page-print h1{color:#565452!important;}
+.page-print button{border-radius:0;width:auto!important}
+.page-print #my-orders-table{font-size:16px;color:#3c3c3c;display:block;width:100%}
+.page-print #my-orders-table th,
+.page-print #my-orders-table td{text-align:left;padding:7px 7px 7px 0;vertical-align:top}
+.page-print #my-orders-table thead th{width:25%;display:inline-block;text-align:left;}
+.page-print #my-orders-table thead {display: none!important;}
+.page-print #my-orders-table thead,
+.page-print #my-orders-table thead tr,
+.page-print #my-orders-table tfoot,
+.page-print #my-orders-table tbody{width:100%;display:block;text-align:left;}
+.page-print #my-orders-table .product-name{margin:0;}
