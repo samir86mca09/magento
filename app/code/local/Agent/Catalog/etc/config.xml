@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+        <Agent_Catalog>
+            <version>1.0.0</version>
+        </Agent_Catalog>
+    </modules>
+
+	<global>
+
+        <models>
+			<agent_catalog>
+	             <class>Agent_Catalog_Model</class>
+	        </agent_catalog>
+		</models>
+
+        <events>
+			<catalog_product_new_action>
+	        	<observers>
+		          <agent_catalog_product_observer>
+		            <type>singleton</type>
+		            <class>agent_catalog/product_observer</class>
+		            <method>catalog_product_new_action</method>
+		          </agent_catalog_product_observer>
+		        </observers>
+			</catalog_product_new_action>
+		</events>
+
+	</global>
+</config>
