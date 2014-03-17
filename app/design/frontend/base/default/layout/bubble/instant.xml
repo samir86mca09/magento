@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type><script>js/bubbleinstant.js</script>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="core/template" name="bubble.instant.js" template="bubble/instant/js.phtml" />
+        </reference>
+    </default>
+</layout>
