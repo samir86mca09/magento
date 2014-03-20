@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bubble_SearchLayer>
+            <version>1.1.0</version>
+        </Bubble_SearchLayer>
+    </modules>
+    <global>
+        <blocks>
+            <bubble_search>
+                <rewrite>
+                    <catalog_layer_filter_price>Bubble_SearchLayer_Block_Catalog_Layer_Filter_Price</catalog_layer_filter_price>
+                </rewrite>
+            </bubble_search>
+        </blocks>
+        <models>
+            <bubble_search>
+                <rewrite>
+                    <catalog_layer_filter_attribute>Bubble_SearchLayer_Model_Catalog_Layer_Filter_Attribute</catalog_layer_filter_attribute>
+                    <catalog_layer_filter_category>Bubble_SearchLayer_Model_Catalog_Layer_Filter_Category</catalog_layer_filter_category>
+                    <catalog_layer_filter_price>Bubble_SearchLayer_Model_Catalog_Layer_Filter_Price</catalog_layer_filter_price>
+                    <catalogsearch_layer_filter_attribute>Bubble_SearchLayer_Model_CatalogSearch_Layer_Filter_Attribute</catalogsearch_layer_filter_attribute>
+                </rewrite>
+            </bubble_search>
+        </models>
+    </global>
+</config>

@@ -1,0 +1,31 @@
+font:/*BEGIN:general_font*/12px/1.35 Arial, Helvetica, sans-serif/*END:general_font*/;
+font:/*BEGIN:h1_font*/normal 22px/1.15 helvetica,arial,sans-serif/*END:h1_font*/; 
+font:/*BEGIN:h2_font*/normal 20px/1.25 helvetica,arial,sans-serif/*END:h2_font*/;
+font:/*BEGIN:h3_font*/normal 18px/1.25 helvetica,arial,sans-serif/*END:h3_font*/;
+font:/*BEGIN:h4_font*/normal 16px/1.35 helvetica,arial,sans-serif/*END:h4_font*/;
+font:/*BEGIN:h5_font*/normal 14px/1.35 helvetica,arial,sans-serif/*END:h5_font*/; 
+
+color:/*BEGIN:secondary_color*/#f27b04/*END:secondary_color*/;/*cam*/ /*price, hover text, title's page*/
+color:/*BEGIN:secondary2_color*/#74ca78/*END:secondary2_color*/; /*xanh*/ /*text in detail page*/
+color:/*BEGIN:general_color*/#6a6a6a/*END:general_color*/; /*xam*/ /*Default color used in body, normal text...*/
+color:/*BEGIN:primary_color*/#2d2d2d/*END:primary_color*/; /*den*//*link text, title block*/
+color:/*BEGIN:negative_color*/#ffffff/*END:negative_color*/; /*Negative color used when text display on negative background*/
+
+background-color:/*BEGIN:primary_bgcolor*/#ffffff/*END:primary_bgcolor*/; /*background color used in body or main sections*/
+background:/*BEGIN:secondary_bgcolor*/#ff4400/*END:secondary_bgcolor*/; cam dam /*used in background title or background cart*/
+background:/*BEGIN:secondary2_bgcolor*/#f48b05/*END:secondary2_bgcolor*/; vang cam/*used in footer, header banner, label hover..*/
+background:/*BEGIN:secondary3_bgcolor*/#f9f8f8/*END:secondary3_bgcolor*/; xam /*used in top header*/
+background:/*BEGIN:negative_bgcolor*/#f27b04/*END:negative_bgcolor*/;/*header banner, bkg search, line bottom header...*/
+
+border-top:1px solid /*BEGIN:line_color*/#d0d0d0/*END:line_color*/; xam (table)
+border-top:1px solid /*BEGIN:line2_color*/#706969/*END:line2_color*/; xam dam (border bottom sidebar)
+border-top:3px solid /*BEGIN:negative_bgcolor*/#f27b04/*END:negative_bgcolor*/; cam
+border-top:/*BEGIN:secondary_bgcolor*/#ff4400/*END:secondary_bgcolor*/; cam dam
+
+box-shadow:/*BEGIN:box_shadow*/none/*END:box_shadow*/; 
+border-radius:/*BEGIN:rounded_corner*/0/*END:rounded_corner*/;
+
+/*BEGIN:button1*/background:#f9932a; border:1px solid #f9932a; color:#ffffff; /*END:button1*/
+/*BEGIN:button2*/background:#32ccea; border:1px solid #32ccea; color:#ffffff;/*END:button2*/
+
+5d5b5b == 878686

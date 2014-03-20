@@ -76,6 +76,7 @@ implements Mage_Widget_Block_Interface
 	*/
 	public function getTitleTab($number = 1){
 		$storeId = Mage::app()->getStore()->getId();
+		$titleTab = '';
 		if($this->getData('instance')){
 			$params = Mage::getSingleton('widget/widget_instance')->load($this->getData('instance'))->getWidgetParameters();
 			$titleTab = ($params['title_'.$number][$storeId]) ? $params['title_'.$number][$storeId] : $params['title_'.$number][0];

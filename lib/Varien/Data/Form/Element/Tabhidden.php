@@ -44,7 +44,11 @@ class Varien_Data_Form_Element_Tabhidden extends Varien_Data_Form_Element_Abstra
     {
         $html = '<input id="'.$this->getHtmlId().'" name="'.$this->getName()
              .'" value="'.$this->getEscapedValue().'" type="hidden" '.$this->serialize($this->getHtmlAttributes()).'/>'."\n";
-        $html.= $this->getAfterElementHtml();
+        $html.= '<script type="text/javascript">
+					if($("widget_options_form"))
+						$("widget_options_form").writeAttribute("action", "'.Mage::helper('adminhtml')->getUrl('tabs/Widget/buildWidget',array('_secure' => true)).'");
+				</script>';
+		$html.= $this->getAfterElementHtml();
         return $html;
     }
 	

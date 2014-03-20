@@ -1,0 +1,27 @@
+<?php
+    $model	=	Mage::getModel('catalog/category');
+    $rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+    $category = $model->load($rootCategoryId);
+    $curId = $this->getRequest()->getParam('cat');
+    
+    $_helper    = $this->helper('catalog/output');
+    $cate	=	Mage::helper('em0071settings')->getCategoriesCustom($category,$curId);    
+    $count = count($cate);
+?>
+<ul class="products-grid">
+	<?php foreach($cate as $_cate): ?>
+	<?php $_cate	=	Mage::getModel('catalog/category')->load($_cate->getId()); ?>
+	<li class="item" >
+    <div class="item_slider_category">
+		<h2>
+			<a href="<?php echo $_cate->getUrl() ?>"
+			title="<?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?>"><?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?></a></h2>
+		
+		<div class="desc"><?php echo $_helper->categoryAttribute($_cate, $_cate->getDescription(), 'description') ?>
+		</div>
+	</div>
+	</li>
+	<?php endforeach ?>
+</ul>
+
+

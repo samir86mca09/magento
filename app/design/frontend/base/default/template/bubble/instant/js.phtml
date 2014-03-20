@@ -1,0 +1,12 @@
+<script type="text/javascript">
+//<![CDATA[
+var BubbleInstantSearch = new BubbleInstantSearch({
+    onUpdateComplete: function() {
+        if (typeof BubbleLayer !== 'undefined') {
+            BubbleLayer.setCurrentUrl(BubbleInstantSearch.getCurrentUrl());
+            BubbleLayer.handlePriceSlider();
+        }
+    }
+});
+//]]>
+</script>

@@ -1,34 +1,30 @@
 (function($) {
 
-$.fn.selectUl = function(){
-
-    var config = {
-        over: function(){            
-            
-            if ($(this).parent().children().length > 1){
-                $(this).parent().children('.toolbar-dropdown').children('ul').addClass('over');
+$.fn.selectUl = function(){    
+    $('.toolbar-title select').css('display','none');
+    $('.toolbar-switch .toolbar-dropdown').hover(
+        function(){
+            if ($(this).siblings().length > 1){
+                $(this).parent().find('.toolbar-dropdown > ul').addClass('over');
             } else {
                 $(this).addClass('over');
                 // $('.toolbar-dropdown', this).css({width: $(this).width()+50});
             }
 
-            $(this).parent().children('.toolbar-dropdown').children('ul').animate({opacity:1, height:'toggle'}, 100);
-            //$('.toolbar-dropdown ul', this).animate({opacity:1, height:'toggle'}, 100);
+            $(this).parent().find('.toolbar-dropdown > ul').fadeIn(100).slideDown(100);
         },
-        timeout: 0, // number = milliseconds delay before onMouseOut
-        out: function(){
+        function(){
             var that = this;
-            $(this).parent().children('.toolbar-dropdown').children('ul').animate({opacity:0, height:'toggle'}, 100, function(){
-                if ($(this).parent().children().length > 1){
-                    $(that).parent().children('.toolbar-dropdown').children('ul').removeClass('over');
+            
+            $(this).parent().find('.toolbar-dropdown > ul').fadeOut(100).slideUp(100, function(){
+                if ($(this).siblings().length > 1){
+                    $(that).parent().find('.toolbar-dropdown > ul').removeClass('over');
                 } else {
                     $(that).removeClass('over');
                 }
             });
         }
-    };
-    $('.toolbar-title select').css('display','none');
-    $('.toolbar-switch .toolbar-dropdown .current, .toolbar-switch .toolbar-dropdown').hoverIntent( config );
+    );
 }
 $.fn.insertTitle = function(){
     $('<span class="current"/>').text($(this).find('option:selected').text())
@@ -36,7 +32,7 @@ $.fn.insertTitle = function(){
 }
 $.fn.insertUl = function(){
     var numOptions = $(this).children().length;
-                    
+
     $('<div class="toolbar-dropdown"><span class="current"/><ul style="display:none" /></div>')
         .insertAfter($(this).toggleClass('.toolbar-switch').parent());
 
@@ -49,6 +45,7 @@ $.fn.insertUl = function(){
        //$('<li />').text(text).appendTo(divUl);
        divUl.append(text);
     }
+
 }
 $.fn.viewPC = function(){
 
@@ -61,24 +58,20 @@ $.fn.viewPC = function(){
 }
 
 $.fn.selectUlCategorySearch = function(){
-
-    var config = {
-        over: function(){            
-            
-            if ($(this).parent().children().length > 1){
-                $(this).parent().children('.catsearch-dropdown').children('ul').addClass('over');
+    $('.input_cat .catsearch-dropdown').hover(
+        function(){
+            if ($(this).siblings().length > 1){
+                $(this).parent().find('.catsearch-dropdown > ul').addClass('over');
             } else {
                 $(this).addClass('over');
                 // $('.toolbar-dropdown', this).css({width: $(this).width()+50});
             }
 
-            $(this).parent().children('.catsearch-dropdown').children('ul').animate({opacity:1, height:'toggle'}, 100);
-            //$('.toolbar-dropdown ul', this).animate({opacity:1, height:'toggle'}, 100);
+            $(this).parent().children('.catsearch-dropdown').children('ul').fadeIn(100).slideDown(100);
         },
-        timeout: 0, // number = milliseconds delay before onMouseOut
-        out: function(){
+        function(){
             var that = this;
-            $(this).parent().children('.catsearch-dropdown').children('ul').animate({opacity:0, height:'toggle'}, 100, function(){
+            $(this).parent().children('.catsearch-dropdown').children('ul').fadeOut(100).slideUp(100, function(){
                 if ($(this).parent().children().length > 1){
                     $(that).parent().children('.catsearch-dropdown').children('ul').removeClass('over');
                 } else {
@@ -86,9 +79,9 @@ $.fn.selectUlCategorySearch = function(){
                 }
             });
         }
-    };
+    );
+
     $('.input_cat select').css('display','none');
-    $('.input_cat .catsearch-dropdown .current, .input_cat .catsearch-dropdown').hoverIntent( config );
 }
 $.fn.insertUlCategorySearch = function(){
     var $origSelect = $(this);
@@ -107,7 +100,7 @@ $.fn.insertUlCategorySearch = function(){
        $('<li />').text(text).appendTo(divUl);
     }
     
-    $(this).parent().find('ul').find('li').click(function(){
+    $(this).parent().find('li').click(function() {
         var newSelect = $(this).index();
         var valSelect = $(this).text();
         $(this)
@@ -128,20 +121,68 @@ $.fn.insertUlCategorySearch = function(){
         $(this)
             .parent().parent()
             .find('.current').text(valSelect);
-        var cssObj = {
-            'opacity':'0',
-            'height':'toggle'
-        };
         $(this)
             .parent()
             .removeClass('over');
         //window.location.href = $($origSelect).find('option:eq(' + newSelect + ')').val();
+        $(this).parent().fadeOut(100).slideUp(100);
     });
 
     // assuming that you don't want the 'select' visible:
     //$(this).hide();
     
     return $(this);
+}
+
+$.fn.hoverLiItemTopBrand = function(){
+    $(this).hover(function(){
+        $(this).parent().find("li.active").find('.brand-content').fadeOut(0);
+        $(this).parent().find("li.active").removeClass('active');
+
+        $(this).find('.brand-content').fadeIn(0);
+        $(this).addClass('active');
+    });
+} 
+
+$.fn.hoverLiItemCategory = function(){
+    var heightTitle = $(this).find('.cat-title').outerHeight();
+    $(this).hover(
+        function(){
+            $(this).find('.category-decs').animate({opacity:0.8,bottom:heightTitle}, 100);
+            $(this).find('.category-decs').css({ 'display': 'block' });
+            $(this).find('.category-decs').addClass('over');
+        },
+        function(){
+            $(this).find('.category-decs').animate({opacity:0,bottom:0}, 100);
+            $(this).find('.category-decs').css({ 'display': 'none' });
+            $(this).find('.category-decs').removeClass('over');                                                
+        }
+    );
+}
+
+$.fn.hoverLiItemProduct = function(){
+    $(this).hover(
+        function(){
+            $(this).find('.name-desc').fadeIn(100);
+            $(this).find('.name-desc').addClass('over');
+        },
+        function(){
+            $(this).find('.name-desc').fadeOut(100);
+            $(this).find('.name-desc').removeClass('over');                                                
+        }
+    );
+}
+
+$.fn.removeShowBrand = function(){
+   $(this).removeClass('brand-logo-hidden');
+}
+
+$.fn.removeShowBrand = function(){
+   $(this).addClass('brand-logo-hidden');
+}
+
+$.fn.clickBrandShow = function(){
+
 }
 
 })(jQuery);

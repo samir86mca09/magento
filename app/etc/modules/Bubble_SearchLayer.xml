@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bubble_SearchLayer>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Bubble_Layer/>
+                <Bubble_Search/>
+            </depends>
+        </Bubble_SearchLayer>
+    </modules>
+</config>

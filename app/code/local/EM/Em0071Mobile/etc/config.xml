@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EM_Em0071Mobile>
+            <version>0.1.0</version>
+        </EM_Em0071Mobile>
+    </modules>
+	
+    <frontend>
+        <routers>
+            <em0071mobile>
+                <use>standard</use>
+                <args>
+                    <module>EM_Em0071Mobile</module>
+                    <frontName>em0071mobile</frontName>
+                </args>
+            </em0071mobile>
+        </routers>
+    </frontend>
+    <admin>
+        <routers>
+			<em0071mobile>
+				<use>admin</use>
+				<args>
+					<module>EM_Em0071Mobile</module>
+					<frontName>em0071mobile</frontName>
+				</args>
+			</em0071mobile>
+        </routers>
+    </admin>
+      
+    <global>
+       
+        <resources>
+			<em0071mobile_setup>
+                <setup>
+                    <module>EM_Em0071Mobile</module>
+					<class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </em0071mobile_setup>
+            <em0071mobile_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </em0071mobile_write>
+            <em0071mobile_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </em0071mobile_read>
+        </resources>
+        <blocks>
+            <em0071mobile>
+                <class>EM_Em0071Mobile_Block</class>
+            </em0071mobile>
+        </blocks>
+        <helpers>
+            <em0071mobile>
+                <class>EM_Em0071Mobile_Helper</class>
+            </em0071mobile>
+        </helpers>
+    </global>
+</config>
